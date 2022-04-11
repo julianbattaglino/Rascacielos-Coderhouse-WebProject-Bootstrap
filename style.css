@@ -164,6 +164,10 @@ ul.navigation-list {
   display: flex;
 }
 
+.navbar-light .navbar-toggler {
+  border-color: transparent; 
+}
+
 a li {
   font-size: 12px;
   font-family: 'Jaapokki Regular';
