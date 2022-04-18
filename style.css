@@ -140,6 +140,9 @@ img.slider-imgs {
 }
 
 /************************************************** Header - Menu - Navbar **************************************************/
+nav#nav  {
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 10%) !important;
+}
 .navbar-nav .nav-link {
   font-family: 'Jaapokki Regular' !important;
 }
@@ -184,6 +187,33 @@ nav img.logo {
   width: 30px;
   height: 30px;
   margin-right: 50px;
+}
+
+/*Bootstrap Mobile Menu*/
+.navbar-light .navbar-toggler-icon {
+  background-image: url(assets/img/hamburguer.png) !important;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+.dropdown-menu {
+  background-color: #f8f9fa;
+  border: none; 
+}
+a.dropdown-item {
+  padding: 0.25rem 1rem;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+  color: #323333;
+  background-color: #e9ecef;
+}
+.dropdown-item.active, .dropdown-item:active {
+  color: #323333;
+  text-decoration: none;
+  background-color: #e9ecef;
 }
 
 /************************************************** Pagina Home **************************************************/
@@ -720,11 +750,9 @@ button.accordion-button {
 
 /* Pagina Home */
 
-/* Secciones Edificios Home */
 @media (max-width: 1024px) {
-
+/* Secciones Edificios Home */
 /* Grid - 1 Column Secciones Edificios Home Tablet */
-
 div.grid-container {
   display: grid;
   grid-template-columns: 1fr;
@@ -736,7 +764,10 @@ div.grid-container {
   section div.col-1 {
     margin-right: 0;
   }
-
+/* Boostrap Mobile Menu */
+a.dropdown-item {
+  padding: 0.25rem 0;
+}
 
 /* Page Architects */
   section div.col-1-architects {
