@@ -385,8 +385,8 @@ td img.flag {
 
 /********** Pagina Detalle Edificio Burj Khalifa Building **********/
 .section-background-burj {
-  background-image: url("assets/img/Burj-Khalifa1920x1280.webp"); /* The image used */
-  height: 40vh;
+  background-image: url("assets/img/Burj-Khalifa-banner.webp"); /* The image used */
+  height: 65vh;
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
@@ -395,8 +395,8 @@ td img.flag {
 
 /********** Pagina Detalle Edificio Abraj al Bait Building **********/
 .section-background-abraj {
-  background-image: url("assets/img/Abraj-Al-Bait1920x1280.webp"); /* The image used */
-  height: 40vh;
+  background-image: url("assets/img/abraj-al-bait-banner.webp"); /* The image used */
+  height: 65vh;
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
@@ -404,8 +404,8 @@ td img.flag {
 
 /********** Pagina Detalle Edificio Merdeka 118 Building **********/
 .section-background-merdeka {
-  background-image: url("assets/img/Merdeka_118_1920x1280.webp"); /* The image used */
-  height: 40vh;
+  background-image: url("assets/img/meerdeka-118-banner.webp"); /* The image used */
+  height:65vh;
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
@@ -413,8 +413,8 @@ td img.flag {
 
 /********** Pagina Detalle Edificio Ping An Finance Center **********/
 .section-background-fc {
-  background-image: url("assets/img/ping-an-finance-center1920x1280.webp"); /* The image used */
-  height: 40vh;
+  background-image: url("assets/img/ping-an-finance-center-banner.webp"); /* The image used */
+  height: 65vh;
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
@@ -422,8 +422,8 @@ td img.flag {
 
 /********** Pagina Detalle Edificio Shangai Tower **********/
 .section-background-shangai {
-  background-image: url("assets/img/torre-shangai1920x1280.webp"); /* The image used */
-  height: 40vh;
+  background-image: url("assets/img/shanghai-tower-banner.webp"); /* The image used */
+  height: 65vh;
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
@@ -853,6 +853,33 @@ main.table-container {
   justify-content: center;
   padding: 50px 25px;
 }
+
+/********** Pagina Detalle Edificio Burj Khalifa Building **********/
+.section-background-burj {
+  height: 40vh;
+}
+
+
+/********** Pagina Detalle Edificio Abraj al Bait Building **********/
+.section-background-abraj {
+  height: 40vh;
+}
+
+/********** Pagina Detalle Edificio Merdeka 118 Building **********/
+.section-background-merdeka {
+  height: 40vh;
+}
+
+/********** Pagina Detalle Edificio Ping An Finance Center **********/
+.section-background-fc {
+  height: 40vh;
+}
+
+/********** Pagina Detalle Edificio Shangai Tower **********/
+.section-background-shangai {
+  height: 40vh;
+}
+
 
 /* Page Multimedia */
 .grid-multimedia { 
