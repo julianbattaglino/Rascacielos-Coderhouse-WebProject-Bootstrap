@@ -415,7 +415,7 @@ td img.flag {
 .section-background-fc {
   background-image: url("assets/img/ping-an-finance-center-banner.webp"); /* The image used */
   height: 65vh;
-  background-position: center; /* Center the image */
+  background-position: top; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
 }
