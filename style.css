@@ -190,6 +190,10 @@ nav img.logo {
 }
 
 /*Bootstrap Mobile Menu*/
+.navbar {
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+}
 .navbar-light .navbar-toggler-icon {
   background-image: url(assets/img/hamburguer.png) !important;
 }
@@ -219,6 +223,12 @@ a.dropdown-item {
 a#navbarDropdownMenuLink.nav-link.dropdown-toggle::after {
   vertical-align: 0.15em !important;
 }
+/* Navbar Padding Right & Left */
+.navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+  padding: 0 75px
+}
+
+
 
 /************************************************** Pagina Home **************************************************/
 
@@ -835,6 +845,11 @@ a.dropdown-item {
   img.anchor-arrow {
     padding-top: 30px;
     width: 40px;
+  }
+
+  /* Navbar Padding Right & Left */
+  .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    padding: 0 25px
   }
 
 /* Page Home */
