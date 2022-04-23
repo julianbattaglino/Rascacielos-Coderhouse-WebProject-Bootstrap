@@ -1,13 +1,13 @@
   @import "font-face";
   @import "media-queries";
+  @import "variables";
   @import "header";
+  @import "footer";
   @import "page-home";
   @import "page-detalles-edificios";
   @import "page-architects";
   @import "page-multimedia";
   @import "page-contact";
-  @import "footer";
-
   
   /*  Agregado de comportamiento Scroll Suave  */
   
@@ -76,6 +76,7 @@
     position: relative;
     animation-name: left-in;
     animation-duration: 1s;
+    margin-bottom: 0rem;
   }
   
   h2 {
@@ -95,7 +96,11 @@
   }
   
   a {
-    font: $link-font;
+    font-weight: $link-bold;
+    color: $link-black;
+    &:hover {
+      color: $link-hover;
+    }
   }
   
   button.btn-black {

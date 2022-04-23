@@ -244,6 +244,63 @@ a.dropdown-item {
   text-decoration: none;
   background-color: #e9ecef; }
 
+/************************************************** Footer  **************************************************/
+footer {
+  background-color: #F2F2F2;
+  padding: 75px; }
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr;
+  padding-bottom: 25px; }
+
+p.footer-text {
+  font-family: 'Jaapokki Regular';
+  font-size: 14px;
+  font-weight: 500;
+  color: #323333;
+  display: flex;
+  justify-content: center;
+  padding-right: 100px;
+  padding-top: 10px;
+  text-transform: none; }
+
+footer h3 {
+  font-family: 'Jaapokki Regular';
+  font-size: 18px;
+  font-weight: 700;
+  color: #323333; }
+  footer h3.rrss {
+    padding-top: 20px; }
+
+footer h5 {
+  font-family: 'Jaapokki Enchance';
+  font-size: 18px;
+  font-weight: bold;
+  color: #323333;
+  text-transform: uppercase;
+  padding-top: 25px;
+  border-top: solid 1px #323333; }
+
+footer p {
+  font-family: 'Jaapokki Regular';
+  font-size: 12px;
+  font-weight: bold;
+  color: #323333;
+  text-transform: uppercase;
+  justify-content: flex-start; }
+
+footer a {
+  text-decoration: none;
+  color: #323333; }
+
+footer img.logo {
+  width: 30px;
+  height: 30px; }
+
+div.footer-nav ul a {
+  font-weight: 400; }
+
 /************************************************** Pagina Home **************************************************/
 /* Secciones Edificios Home */
 section.intro {
@@ -543,62 +600,6 @@ h1.contact-title {
   padding-top: 50px;
   text-align: center; }
 
-/************************************************** Footer  **************************************************/
-footer {
-  background-color: #F2F2F2;
-  padding: 75px; }
-
-.footer-container {
-  display: grid;
-  grid-template-columns: 2fr 2fr 1fr;
-  padding-bottom: 25px; }
-
-p.footer-text {
-  font-family: 'Jaapokki Regular';
-  font-size: 14px;
-  font-weight: 500;
-  color: #323333;
-  display: flex;
-  justify-content: center;
-  padding-right: 100px;
-  padding-top: 10px;
-  text-transform: none; }
-
-footer h3 {
-  font-family: 'Jaapokki Regular';
-  font-size: 18px;
-  font-weight: 700;
-  color: #323333; }
-  footer h3.rrss {
-    padding-top: 20px; }
-
-footer h5 {
-  font-family: 'Jaapokki Enchance';
-  font-size: 18px;
-  font-weight: bold;
-  color: #323333;
-  text-transform: uppercase;
-  padding-top: 25px;
-  border-top: solid 1px #323333; }
-
-footer p {
-  font-family: 'Jaapokki Regular';
-  font-size: 12px;
-  font-weight: bold;
-  color: #323333;
-  text-transform: uppercase;
-  justify-content: flex-start; }
-
-footer a {
-  text-decoration: none; }
-
-footer img.logo {
-  width: 30px;
-  height: 30px; }
-
-div.footer-nav ul a {
-  font-weight: 400; }
-
 /*  Agregado de comportamiento Scroll Suave  */
 html {
   scroll-behavior: smooth; }
@@ -644,7 +645,8 @@ h1 {
   text-transform: uppercase;
   position: relative;
   animation-name: left-in;
-  animation-duration: 1s; }
+  animation-duration: 1s;
+  margin-bottom: 0rem; }
 
 h2 {
   font-family: 'Jaapokki Regular';
@@ -661,8 +663,10 @@ p {
   color: #323333; }
 
 a {
-  color: #323333;
-  font-weight: bold; }
+  font-weight: Bold;
+  color: #323333; }
+  a:hover {
+    color: #6A6A6A; }
 
 button.btn-black {
   font-family: 'Jaapokki Regular';
