@@ -1,43 +1,33 @@
 /* Local Fonts "Jaapokki" Porque me encanta y no esta en Google Fonts */
 @font-face {
-    font-family: 'Jaapokki Regular';
-    src: url('assets/fonts/Jaapokki/Regular/jaapokki-regular.eot');
-  
-    /* IE9 Compat Modes */
-    src: url('assets/fonts/Jaapokki/Regular/jaapokki-regular.eot?#iefix') format("embedded-opentype"), url('assets/fonts/Jaapokki/Regular/Jaapokki-Regular.otf') format("otf"), url('assets/fonts/Jaapokki/Regular/jaapokki-regular.woff') format("woff"), url('assets/fonts/Jaapokki/Regular/jaapokki-regular.ttf') format("truetype"), url('assets/fonts/Jaapokki/Regular/jaapokki-regular.svg#svgFontName') format("svg");
-  
-    /* Legacy iOS */
-  }
-  
-  @font-face {
-    font-family: 'Jaapokki Enchance';
-    src: url('assets/fonts/Jaapokki/Enchance/jaapokkienchance-regular.eot');
-  
-    /* IE9 Compat Modes */
-    src: url('assets/fonts/Jaapokki/Enchance/jaapokkienchance-regular.eot?#iefix') format("embedded-opentype"), url('assets/fonts/Jaapokki/Enchance/Jaapokkienchance-Regular.otf') format("otf"), url('assets/fonts/Jaapokki/Enchance/jaapokkienchance-regular.woff') format("woff"), url('assets/fonts/Jaapokki/Enchance/jaapokkienchance-regular.ttf') format("truetype"), url('assets/fonts/Jaapokki/Enchance/jaapokkienchance-regular.svg#svgFontName') format("svg");
-  
-    /* Legacy iOS */
-  }
-  
-  @font-face {
-    font-family: 'Jaapokki Subtract';
-    src: url('assets/fonts/Jaapokki/Subtract/jaapokkisubtract-regular.eot');
-  
-    /* IE9 Compat Modes */
-    src: url('assets/fonts/Jaapokki/Subtract/jaapokkisubtract-regular.eot?#iefix') format("embedded-opentype"), url('assets/fonts/Jaapokki/Subtract/Jaapokkisubtract-Regular.otf') format("otf"), url('assets/fonts/Jaapokki/Subtract/jaapokkisubtract-regular.woff') format("woff"), url('assets/fonts/Jaapokki/Subtract/jaapokkisubtract-regular.ttf') format("truetype"), url('assets/fonts/Jaapokki/Subtract/jaapokkisubtract-regular.svg#svgFontName') format("svg");
-  
-    /* Legacy iOS */
-  }
-  
-  @font-face {
-    font-family: 'Jaapokki Regular';
-    src: url('assets/fonts/Jaapokki/Regular/jaapokki-regular.eot');
-  
-    /* IE9 Compat Modes */
-    src: url('assets/fonts/Jaapokki/Regular/jaapokki-regular.eot?#iefix') format("embedded-opentype"), url('assets/fonts/Jaapokki/Regular/Jaapokki-Regular.otf') format("otf"), url('assets/fonts/Jaapokki/Regular/jaapokki-regular.woff') format("woff"), url('assets/fonts/Jaapokki/Regular/jaapokki-regular.ttf') format("truetype"), url('assets/fonts/Jaapokki/Regular/jaapokki-regular.svg#svgFontName') format("svg");
-  
-    /* Legacy iOS */
-  }
+  font-family: 'Jaapokki Regular';
+  src: url('assets/fonts/Jaapokki/Regular/jaapokki-regular.eot'); /* IE9 Compat Modes */
+  src: url('assets/fonts/Jaapokki/Regular/jaapokki-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('assets/fonts/Jaapokki/Regular/Jaapokki-Regular.otf') format('otf'), /* Legacy iOS */
+       url('assets/fonts/Jaapokki/Regular/jaapokki-regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('assets/fonts/Jaapokki/Regular/jaapokki-regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('assets/fonts/Jaapokki/Regular/jaapokki-regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Jaapokki Enchance';
+  src: url('assets/fonts/Jaapokki/Enchance/jaapokkienchance-regular.eot'); /* IE9 Compat Modes */
+  src: url('assets/fonts/Jaapokki/Enchance/jaapokkienchance-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('assets/fonts/Jaapokki/Enchance/Jaapokkienchance-Regular.otf') format('otf'), /* Legacy iOS */
+       url('assets/fonts/Jaapokki/Enchance/jaapokkienchance-regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('assets/fonts/Jaapokki/Enchance/jaapokkienchance-regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('assets/fonts/Jaapokki/Enchance/jaapokkienchance-regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+   font-family: 'Jaapokki Subtract';
+   src: url('assets/fonts/Jaapokki/Subtract/jaapokkisubtract-regular.eot'); /* IE9 Compat Modes */
+   src: url('assets/fonts/Jaapokki/Subtract/jaapokkisubtract-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('assets/fonts/Jaapokki/Subtract/Jaapokkisubtract-Regular.otf') format('otf'), /* Legacy iOS */
+        url('assets/fonts/Jaapokki/Subtract/jaapokkisubtract-regular.woff') format('woff'), /* Pretty Modern Browsers */
+        url('assets/fonts/Jaapokki/Subtract/jaapokkisubtract-regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+        url('assets/fonts/Jaapokki/Subtract/jaapokkisubtract-regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+ }
   
   /*  Agregado de comportamiento Scroll Suave  */
   
@@ -86,12 +76,12 @@
   
   .accordion-button {
     &:not(.collapsed)::after {
-      background-image: url(assets/img/back-to-top-down.png);
+      background-image: url(../assets/img/back-to-top-down.png);
       transform: rotate(-180deg);
     }
   
     &::after {
-      background-image: url(assets/img/back-to-top-down.png);
+      background-image: url(../assets/img/back-to-top-down.png);
     }
   }
   
@@ -209,7 +199,7 @@
   }
   
   .navbar-light .navbar-toggler-icon {
-    background-image: url(assets/img/hamburguer.png) !important;
+    background-image: url(../assets/img/hamburguer.png) !important;
   }
   
   .navbar-toggler {
@@ -368,7 +358,7 @@
   /* Bootstrap Carrousel Custom Next & Prev Arrows */
   
   .carousel-control-next-icon {
-    background-image: url(assets/img/slider-arrow-rigth.png);
+    background-image: url(../assets/img/slider-arrow-rigth.png);
   }
   
   span.carousel-control-next-icon {
@@ -376,7 +366,7 @@
   }
   
   .carousel-control-prev-icon {
-    background-image: url(assets/img/slider-arrow-left.png);
+    background-image: url(../assets/img/slider-arrow-left.png);
   }
   
   span.carousel-control-prev-icon {
@@ -435,7 +425,7 @@
   /********** Pagina Detalle Edificio Burj Khalifa Building **********/
   
   .section-background-burj {
-    background-image: url("assets/img/Burj-Khalifa-banner.webp");
+    background-image: url("../assets/img/Burj-Khalifa-banner.webp");
   
     /* The image used */
     height: 65vh;
@@ -453,7 +443,7 @@
   /********** Pagina Detalle Edificio Abraj al Bait Building **********/
   
   .section-background-abraj {
-    background-image: url("assets/img/abraj-al-bait-banner.webp");
+    background-image: url("../assets/img/abraj-al-bait-banner.webp");
   
     /* The image used */
     height: 65vh;
@@ -471,7 +461,7 @@
   /********** Pagina Detalle Edificio Merdeka 118 Building **********/
   
   .section-background-merdeka {
-    background-image: url("assets/img/meerdeka-118-banner.webp");
+    background-image: url("../assets/img/meerdeka-118-banner.webp");
   
     /* The image used */
     height: 65vh;
@@ -489,7 +479,7 @@
   /********** Pagina Detalle Edificio Ping An Finance Center **********/
   
   .section-background-fc {
-    background-image: url("assets/img/ping-an-finance-center-banner.webp");
+    background-image: url("../assets/img/ping-an-finance-center-banner.webp");
   
     /* The image used */
     height: 65vh;
@@ -507,7 +497,7 @@
   /********** Pagina Detalle Edificio Shangai Tower **********/
   
   .section-background-shangai {
-    background-image: url("assets/img/shanghai-tower-banner.webp");
+    background-image: url("../assets/img/shanghai-tower-banner.webp");
   
     /* The image used */
     height: 65vh;
