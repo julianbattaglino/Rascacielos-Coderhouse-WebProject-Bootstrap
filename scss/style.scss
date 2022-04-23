@@ -1,5 +1,6 @@
   @import "font-face";
   @import "header";
+  @import "home";
   
   /*  Agregado de comportamiento Scroll Suave  */
   
@@ -126,90 +127,7 @@
       padding: 0 75px;
     }
   }
-  
-  /************************************************** Pagina Home **************************************************/
-  
-  /* Secciones Edificios Home */
-  
-  section.intro {
-    height: 100vh;
-    background-color: #F2F2F2;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 0 75px;
-    text-align: center;
-  }
-  
-  p.home-intro {
-    padding: 0 200px;
-  }
-  
-  .section-1 {
-    height: 100%;
-    background-color: #B4BDCB;
-    padding: 75px;
-  }
-  
-  .section-2 {
-    height: 100%;
-    background-color: #F2F2F2;
-    padding: 75px;
-  }
-  
-  .section-3 {
-    height: 100%;
-    background-color: #B4BDCB;
-    padding: 75px;
-  }
-  
-  .section-4 {
-    height: 100%;
-    background-color: #F2F2F2;
-    padding: 75px;
-  }
-  
-  .section-5 {
-    height: 100%;
-    background-color: #B4BDCB;
-    padding: 75px;
-  }
-  
-  h2.building-title {
-    padding-bottom: 75px;
-  }
-  
-  /* Display Grid - 2 Columnas Secciones */
-  
-  section {
-    img.section-img {
-      padding: 1rem;
-      box-shadow: 0 4px 6px rgba(0,0,0,.3);
-    }
-  
-    div.column-2 {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      align-items: flex-start;
-      justify-content: flex-start;
-    }
-  }
-  
-  p.section-text {
-    padding-bottom: 30px;
-  }
-  
-  img.anchor-arrow {
-    padding-top: 30px;
-    width: 40px;
-    animation-name: floating;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-  }
-  
+    
   /************************************************** Pagina 2 - Detalles de Edificios - Estilos Globales  **************************************************/
   
   section {
