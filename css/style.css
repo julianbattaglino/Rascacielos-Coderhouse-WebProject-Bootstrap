@@ -336,6 +336,13 @@ section.multimedia h1 {
   text-align: center;
   background-color: #F2F2F2; }
 
+/************************************************** Pagina 4 - Multimedia **************************************************/
+.grid-multimedia {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: #F2F2F2;
+  padding-bottom: 75px; }
+
 /************************************************** Footer  **************************************************/
 footer {
   background-color: #F2F2F2;
@@ -481,13 +488,6 @@ a#navbarDropdownMenuLink.nav-link.dropdown-toggle::after {
 /* Navbar Padding Right & Left */
 .navbar > .container-fluid, .navbar > .container-lg, .navbar > .container-md, .navbar > .container-sm, .navbar > .container-xl, .navbar > .container-xxl {
   padding: 0 75px; }
-
-/************************************************** Pagina 4 - Multimedia **************************************************/
-.grid-multimedia {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  background-color: #F2F2F2;
-  padding-bottom: 75px; }
 
 /************************************************** Pagina 5 - Contacto **************************************************/
 form {

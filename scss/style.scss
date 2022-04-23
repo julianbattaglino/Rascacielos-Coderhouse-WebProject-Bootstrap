@@ -1,9 +1,11 @@
   @import "font-face";
   @import "header";
-  @import "home-page";
-  @import "detalles-edificios";
-  @import "architects-page";
+  @import "page-home";
+  @import "page-detalles-edificios";
+  @import "page-architects";
+  @import "page-multimedia";
   @import "footer";
+
   
   /*  Agregado de comportamiento Scroll Suave  */
   
@@ -133,14 +135,6 @@
     
   
   
-  /************************************************** Pagina 4 - Multimedia **************************************************/
-  
-  .grid-multimedia {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    background-color: #F2F2F2;
-    padding-bottom: 75px;
-  }
   
   /************************************************** Pagina 5 - Contacto **************************************************/
   
