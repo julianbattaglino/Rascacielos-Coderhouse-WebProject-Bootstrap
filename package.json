@@ -1,0 +1,24 @@
+{
+  "name": "rascacielos-coderhouse-webproject-bootstrap",
+  "version": "1.0.0",
+  "description": "Repositorio del proyecto final para el curso de \"Desarrollo Web\", Utilizando Framework CSS Bootstrap 5. Website TOP 5 TALLEST SKYSCRAPERS, los 5 rascacielos mas altos del mundo.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julianbattaglino/Rascacielos-Coderhouse-WebProject-Bootstrap.git"
+  },
+  "keywords": [
+    "Coderhouse",
+    "web",
+    "project"
+  ],
+  "author": "Julian Battaglino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julianbattaglino/Rascacielos-Coderhouse-WebProject-Bootstrap/issues"
+  },
+  "homepage": "https://github.com/julianbattaglino/Rascacielos-Coderhouse-WebProject-Bootstrap#readme"
+}
