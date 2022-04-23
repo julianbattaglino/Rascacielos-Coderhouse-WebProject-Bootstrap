@@ -1,0 +1,71 @@
+  /************************************************** Pagina 3 - Architects **************************************************/
+  
+  h2.architect-name {
+    font-family: 'Jaapokki Enchance';
+    font-size: 24px;
+    font-weight: 700;
+    background-color: #FFFFFF;
+    border-radius: 0 0 10px 10px;
+    margin-top: -5px;
+    padding-top: 10px;
+  }
+  
+  img.architects-img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  div {
+    &.accordion {
+      border-radius: 10px 10px 0 0;
+    }
+  
+    &.accordion-body {
+      font-family: 'Jaapokki Enchance';
+    }
+  }
+  
+  button.accordion-button {
+    font-size: 28px;
+    font-family: 'Jaapokki Enchance';
+    font-weight: 700;
+    word-spacing: 20px;
+    color: #323333;
+  }
+  
+  p.buildings {
+    text-align: center;
+  }
+  
+  section {
+    &.architect-1 {
+      background-color: #B4BDCB;
+      padding: 75px 75px 125px 75px;
+    }
+  
+    &.architect-2 {
+      background-color: #F2F2F2;
+      padding: 75px 75px 125px 75px;
+    }
+  
+    &.architect-3 {
+      background-color: #B4BDCB;
+      padding: 75px 75px 125px 75px;
+    }
+  
+    &.architect-4 {
+      background-color: #F2F2F2;
+      padding: 75px 75px 125px 75px;
+    }
+  
+    &.architect-5 {
+      background-color: #B4BDCB;
+      padding: 75px 75px 125px 75px;
+    }
+  
+    &.multimedia h1 {
+      padding: 50px 75px;
+      text-align: center;
+      background-color: #F2F2F2;
+    }
+  }

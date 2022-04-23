@@ -154,96 +154,6 @@ img.anchor-arrow {
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out; }
 
-/*  Agregado de comportamiento Scroll Suave  */
-html {
-  scroll-behavior: smooth; }
-
-/************************************************** Reset Estilos Globales **************************************************/
-* {
-  margin: 0;
-  padding: 0; }
-
-/************************************************ Animations & Transformations ************************************************/
-/* Animación h1 left to rigth + Fade in Opacity */
-@keyframes left-in {
-  0% {
-    top: -10%;
-    opacity: 0; }
-  100% {
-    top: 0;
-    opacity: 1; } }
-
-/* Animación flotante Flechas */
-@keyframes floating {
-  0% {
-    transform: translate(0, 0px); }
-  50% {
-    transform: translate(0, 10px); }
-  100% {
-    transform: translate(0, 0px); } }
-
-/* Bootstrap Accordion Arrows Custom Icons */
-.accordion-button:not(.collapsed)::after {
-  background-image: url(../assets/img/back-to-top-down.png);
-  transform: rotate(-180deg); }
-
-.accordion-button::after {
-  background-image: url(../assets/img/back-to-top-down.png); }
-
-/************************************************** Estilos Globales **************************************************/
-h1 {
-  font-family: 'Jaapokki Subtract';
-  font-weight: bold;
-  font-size: 3rem;
-  color: #323333;
-  text-transform: uppercase;
-  position: relative;
-  animation-name: left-in;
-  animation-duration: 1s; }
-
-h2 {
-  font-family: 'Jaapokki Regular';
-  font-weight: bold;
-  font-size: 2rem;
-  color: #323333;
-  text-transform: uppercase;
-  text-align: center; }
-
-p {
-  font-family: 'Jaapokki Regular';
-  font-weight: 500;
-  font-size: 14px;
-  color: #323333; }
-
-a {
-  color: #323333;
-  font-weight: bold; }
-
-button.btn-black {
-  font-family: 'Jaapokki Regular';
-  background-color: #323333;
-  color: #F2F2F2;
-  padding: 5px 25px;
-  border-radius: 5px;
-  cursor: pointer; }
-
-ul {
-  list-style-type: none; }
-
-img {
-  max-width: 100%; }
-  img.slider-imgs {
-    width: 75%;
-    margin: auto; }
-
-/* Dropdown Sub-Menu Arrow Alineación Vertical */
-a#navbarDropdownMenuLink.nav-link.dropdown-toggle::after {
-  vertical-align: 0.15em !important; }
-
-/* Navbar Padding Right & Left */
-.navbar > .container-fluid, .navbar > .container-lg, .navbar > .container-md, .navbar > .container-sm, .navbar > .container-xl, .navbar > .container-xxl {
-  padding: 0 75px; }
-
 /************************************************** Pagina 2 - Detalles de Edificios - Estilos Globales  **************************************************/
 section.section-presentation {
   height: 50vh;
@@ -426,57 +336,6 @@ section.multimedia h1 {
   text-align: center;
   background-color: #F2F2F2; }
 
-/************************************************** Pagina 4 - Multimedia **************************************************/
-.grid-multimedia {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  background-color: #F2F2F2;
-  padding-bottom: 75px; }
-
-/************************************************** Pagina 5 - Contacto **************************************************/
-form {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 50px 20px;
-  border: none;
-  margin: 0 auto;
-  width: 40%; }
-
-input.name {
-  width: 100%;
-  border: solid;
-  border-width: 0 0 2px 0;
-  padding: 10px 5px; }
-
-input.phone, input.email {
-  width: 100%;
-  margin-top: 20px;
-  border: solid;
-  border-width: 0 0 2px 0;
-  padding: 10px 5px; }
-
-select.form-select {
-  width: 100%;
-  margin-top: 20px;
-  border: solid;
-  border-width: 0 0 2px 0;
-  padding: 10px 0; }
-
-textarea.message {
-  width: 100%;
-  margin-top: 20px;
-  border: solid;
-  border-width: 0 0 2px 0;
-  padding: 10px 5px; }
-
-fieldset {
-  border: none; }
-
-h1.contact-title {
-  padding-top: 50px;
-  text-align: center; }
-
 /************************************************** Footer  **************************************************/
 footer {
   background-color: #F2F2F2;
@@ -532,6 +391,147 @@ footer img.logo {
 
 div.footer-nav ul a {
   font-weight: 400; }
+
+/*  Agregado de comportamiento Scroll Suave  */
+html {
+  scroll-behavior: smooth; }
+
+/************************************************** Reset Estilos Globales **************************************************/
+* {
+  margin: 0;
+  padding: 0; }
+
+/************************************************ Animations & Transformations ************************************************/
+/* Animación h1 left to rigth + Fade in Opacity */
+@keyframes left-in {
+  0% {
+    top: -10%;
+    opacity: 0; }
+  100% {
+    top: 0;
+    opacity: 1; } }
+
+/* Animación flotante Flechas */
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px); }
+  50% {
+    transform: translate(0, 10px); }
+  100% {
+    transform: translate(0, 0px); } }
+
+/* Bootstrap Accordion Arrows Custom Icons */
+.accordion-button:not(.collapsed)::after {
+  background-image: url(../assets/img/back-to-top-down.png);
+  transform: rotate(-180deg); }
+
+.accordion-button::after {
+  background-image: url(../assets/img/back-to-top-down.png); }
+
+/************************************************** Estilos Globales **************************************************/
+h1 {
+  font-family: 'Jaapokki Subtract';
+  font-weight: bold;
+  font-size: 3rem;
+  color: #323333;
+  text-transform: uppercase;
+  position: relative;
+  animation-name: left-in;
+  animation-duration: 1s; }
+
+h2 {
+  font-family: 'Jaapokki Regular';
+  font-weight: bold;
+  font-size: 2rem;
+  color: #323333;
+  text-transform: uppercase;
+  text-align: center; }
+
+p {
+  font-family: 'Jaapokki Regular';
+  font-weight: 500;
+  font-size: 14px;
+  color: #323333; }
+
+a {
+  color: #323333;
+  font-weight: bold; }
+
+button.btn-black {
+  font-family: 'Jaapokki Regular';
+  background-color: #323333;
+  color: #F2F2F2;
+  padding: 5px 25px;
+  border-radius: 5px;
+  cursor: pointer; }
+
+ul {
+  list-style-type: none; }
+
+img {
+  max-width: 100%; }
+  img.slider-imgs {
+    width: 75%;
+    margin: auto; }
+
+/* Dropdown Sub-Menu Arrow Alineación Vertical */
+a#navbarDropdownMenuLink.nav-link.dropdown-toggle::after {
+  vertical-align: 0.15em !important; }
+
+/* Navbar Padding Right & Left */
+.navbar > .container-fluid, .navbar > .container-lg, .navbar > .container-md, .navbar > .container-sm, .navbar > .container-xl, .navbar > .container-xxl {
+  padding: 0 75px; }
+
+/************************************************** Pagina 4 - Multimedia **************************************************/
+.grid-multimedia {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: #F2F2F2;
+  padding-bottom: 75px; }
+
+/************************************************** Pagina 5 - Contacto **************************************************/
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
+  border: none;
+  margin: 0 auto;
+  width: 40%; }
+
+input.name {
+  width: 100%;
+  border: solid;
+  border-width: 0 0 2px 0;
+  padding: 10px 5px; }
+
+input.phone, input.email {
+  width: 100%;
+  margin-top: 20px;
+  border: solid;
+  border-width: 0 0 2px 0;
+  padding: 10px 5px; }
+
+select.form-select {
+  width: 100%;
+  margin-top: 20px;
+  border: solid;
+  border-width: 0 0 2px 0;
+  padding: 10px 0; }
+
+textarea.message {
+  width: 100%;
+  margin-top: 20px;
+  border: solid;
+  border-width: 0 0 2px 0;
+  padding: 10px 5px; }
+
+fieldset {
+  border: none; }
+
+h1.contact-title {
+  padding-top: 50px;
+  text-align: center; }
 
 /************************************************** MEDIA QUERIES  **************************************************/
 /************************************************************************************************************************

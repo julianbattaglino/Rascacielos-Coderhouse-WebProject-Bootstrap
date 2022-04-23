@@ -1,0 +1,178 @@
+  /************************************************** Pagina 2 - Detalles de Edificios - Estilos Globales  **************************************************/
+  
+  section {
+    &.section-presentation {
+      height: 50vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 0 75px;
+    }
+  
+    &.section-table h2, &.section-slider, &.section-location {
+      padding-top: 75px;
+    }
+  }
+  
+  iframe.location-map {
+    width: 100%;
+    padding: 0;
+  }
+  
+  /* Bootstrap Carrousel Custom Next & Prev Arrows */
+  
+  .carousel-control-next-icon {
+    background-image: url(../assets/img/slider-arrow-rigth.png);
+  }
+  
+  span.carousel-control-next-icon {
+    filter: none !important;
+  }
+  
+  .carousel-control-prev-icon {
+    background-image: url(../assets/img/slider-arrow-left.png);
+  }
+  
+  span.carousel-control-prev-icon {
+    filter: none !important;
+  }
+  
+  /********** Comparative Tables **********/
+  
+  main.table-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 75px;
+  }
+  
+  table {
+    width: 100vw;
+    height: 50vh;
+    background-color: #f8f9fa;
+    border: 1px solid #a2a9b1;
+    border-collapse: collapse;
+    font-family: 'Jaapokki Regular';
+    color: #323333;
+    font-size: 14px;
+  }
+  
+  th {
+    border: 1px solid #a2a9b1;
+  }
+  
+  td {
+    text-align: center;
+    border: 1px solid #a2a9b1;
+  }
+  
+  tr {
+    background-color: #f8f9fa;
+    border: 1px solid #a2a9b1;
+  
+    &.tr-heading {
+      background-color: #eaecf0;
+      text-align: center;
+    }
+  
+    &.tr-current {
+      background-color: #B4BDCB;
+    }
+  }
+  
+  td img.flag {
+    padding-right: 10px;
+    max-width: 20px;
+    max-height: 10px;
+  }
+  
+  /********** Pagina Detalle Edificio Burj Khalifa Building **********/
+  
+  .section-background-burj {
+    background-image: url("../assets/img/Burj-Khalifa-banner.webp");
+  
+    /* The image used */
+    height: 65vh;
+    background-position: center;
+  
+    /* Center the image */
+    background-repeat: no-repeat;
+  
+    /* Do not repeat the image */
+    background-size: cover;
+  
+    /* Resize the background image to cover the entire container */
+  }
+  
+  /********** Pagina Detalle Edificio Abraj al Bait Building **********/
+  
+  .section-background-abraj {
+    background-image: url("../assets/img/abraj-al-bait-banner.webp");
+  
+    /* The image used */
+    height: 65vh;
+    background-position: center;
+  
+    /* Center the image */
+    background-repeat: no-repeat;
+  
+    /* Do not repeat the image */
+    background-size: cover;
+  
+    /* Resize the background image to cover the entire container */
+  }
+  
+  /********** Pagina Detalle Edificio Merdeka 118 Building **********/
+  
+  .section-background-merdeka {
+    background-image: url("../assets/img/meerdeka-118-banner.webp");
+  
+    /* The image used */
+    height: 65vh;
+    background-position: center;
+  
+    /* Center the image */
+    background-repeat: no-repeat;
+  
+    /* Do not repeat the image */
+    background-size: cover;
+  
+    /* Resize the background image to cover the entire container */
+  }
+  
+  /********** Pagina Detalle Edificio Ping An Finance Center **********/
+  
+  .section-background-fc {
+    background-image: url("../assets/img/ping-an-finance-center-banner.webp");
+  
+    /* The image used */
+    height: 65vh;
+    background-position: top;
+  
+    /* Center the image */
+    background-repeat: no-repeat;
+  
+    /* Do not repeat the image */
+    background-size: cover;
+  
+    /* Resize the background image to cover the entire container */
+  }
+  
+  /********** Pagina Detalle Edificio Shangai Tower **********/
+  
+  .section-background-shangai {
+    background-image: url("../assets/img/shanghai-tower-banner.webp");
+  
+    /* The image used */
+    height: 65vh;
+    background-position: center;
+  
+    /* Center the image */
+    background-repeat: no-repeat;
+  
+    /* Do not repeat the image */
+    background-size: cover;
+  
+    /* Resize the background image to cover the entire container */
+  }
