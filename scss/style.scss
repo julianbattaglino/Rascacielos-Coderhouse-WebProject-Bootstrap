@@ -1,33 +1,5 @@
-/* Local Fonts "Jaapokki" Porque me encanta y no esta en Google Fonts */
-@font-face {
-  font-family: 'Jaapokki Regular';
-  src: url('../assets/fonts/Jaapokki/Regular/jaapokki-regular.eot'); /* IE9 Compat Modes */
-  src: url('../assets/fonts/Jaapokki/Regular/jaapokki-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../assets/fonts/Jaapokki/Regular/Jaapokki-Regular.otf') format('otf'), /* Legacy iOS */
-       url('../assets/fonts/Jaapokki/Regular/jaapokki-regular.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../assets/fonts/Jaapokki/Regular/jaapokki-regular.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('../assets/fonts/Jaapokki/Regular/jaapokki-regular.svg#svgFontName') format('svg'); /* Legacy iOS */
-}
-
-@font-face {
-  font-family: 'Jaapokki Enchance';
-  src: url('../assets/fonts/Jaapokki/Enchance/jaapokkienchance-regular.eot'); /* IE9 Compat Modes */
-  src: url('../assets/fonts/Jaapokki/Enchance/jaapokkienchance-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../assets/fonts/Jaapokki/Enchance/Jaapokkienchance-Regular.otf') format('otf'), /* Legacy iOS */
-       url('../assets/fonts/Jaapokki/Enchance/jaapokkienchance-regular.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../assets/fonts/Jaapokki/Enchance/jaapokkienchance-regular.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('../assets/fonts/Jaapokki/Enchance/jaapokkienchance-regular.svg#svgFontName') format('svg'); /* Legacy iOS */
-}
-
-@font-face {
-   font-family: 'Jaapokki Subtract';
-   src: url('../assets/fonts/Jaapokki/Subtract/jaapokkisubtract-regular.eot'); /* IE9 Compat Modes */
-   src: url('../assets/fonts/Jaapokki/Subtract/jaapokkisubtract-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-        url('../assets/fonts/Jaapokki/Subtract/Jaapokkisubtract-Regular.otf') format('otf'), /* Legacy iOS */
-        url('../assets/fonts/Jaapokki/Subtract/jaapokkisubtract-regular.woff') format('woff'), /* Pretty Modern Browsers */
-        url('../assets/fonts/Jaapokki/Subtract/jaapokkisubtract-regular.ttf')  format('truetype'), /* Safari, Android, iOS */
-        url('../assets/fonts/Jaapokki/Subtract/jaapokkisubtract-regular.svg#svgFontName') format('svg'); /* Legacy iOS */
- }
+  @import "font-face";
+  @import "header";
   
   /*  Agregado de comportamiento Scroll Suave  */
   
@@ -140,102 +112,7 @@
       margin: auto;
     }
   }
-  
-  /************************************************** Header - Menu - Navbar **************************************************/
-  
-  nav#nav {
-    box-shadow: 0 2px 5px 0 RGB(0, 0, 0, .10) !important;
-  }
-  
-  .navbar-nav .nav-link, .dropdown-menu .dropdown-item {
-    font-family: 'Jaapokki Regular' !important;
-  }
-  
-  ul.navigation-list {
-    padding-left: 0 !important;
-  }
-  
-  .navbar-light {
-    .navbar-nav .nav-link {
-      font-weight: normal;
-  
-      &.active {
-        font-weight: bold;
-      }
-    }
-  
-    .navbar-brand {
-      display: flex;
-    }
-  
-    .navbar-toggler {
-      border-color: transparent;
-    }
-  }
-  
-  a li {
-    font-size: 12px;
-    font-family: 'Jaapokki Regular';
-    color: #323333;
-    text-transform: uppercase;
-  
-    &:hover {
-      font-family: 'Jaapokki Regular';
-      color: #6A6A6A;
-    }
-  }
-  
-  nav img.logo {
-    width: 30px;
-    height: 30px;
-    margin-right: 50px;
-  }
-  
-  /*Bootstrap Mobile Menu*/
-  
-  .navbar {
-    padding-top: 0.8rem;
-    padding-bottom: 0.8rem;
-  }
-  
-  .navbar-light .navbar-toggler-icon {
-    background-image: url(../assets/img/hamburguer.png) !important;
-  }
-  
-  .navbar-toggler {
-    &:focus, &:active {
-      outline: none;
-      box-shadow: none;
-    }
-  }
-  
-  .navbar-toggler-icon:focus {
-    outline: none;
-    box-shadow: none;
-  }
-  
-  .dropdown-menu {
-    background-color: #f8f9fa;
-    border: none;
-  }
-  
-  a.dropdown-item {
-    padding: 0.25rem 1rem;
-  }
-  
-  .dropdown-item {
-    &:focus, &:hover {
-      color: #323333;
-      background-color: #e9ecef;
-    }
-  
-    &.active, &:active {
-      color: #323333;
-      text-decoration: none;
-      background-color: #e9ecef;
-    }
-  }
-  
+    
   /* Dropdown Sub-Menu Arrow Alineación Vertical */
   
   a#navbarDropdownMenuLink.nav-link.dropdown-toggle::after {
