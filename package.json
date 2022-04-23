@@ -4,7 +4,7 @@
   "description": "Repositorio del proyecto final para el curso de \"Desarrollo Web\", Utilizando Framework CSS Bootstrap 5. Website TOP 5 TALLEST SKYSCRAPERS, los 5 rascacielos mas altos del mundo.",
   "main": "index.js",
   "scripts": {
-    "build-css": "node-sass --include-path scss scss/prueba.scss css/pruebacss.css",
+    "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
     
   },
