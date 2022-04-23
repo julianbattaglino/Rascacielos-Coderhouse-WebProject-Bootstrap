@@ -2,23 +2,23 @@
 /* Local Fonts "Jaapokki" Porque me encanta y no esta en Google Fonts */
 @font-face {
   font-family: 'Jaapokki Regular';
-  src: url("assets/fonts/Jaapokki/Regular/jaapokki-regular.eot");
+  src: url("../assets/fonts/Jaapokki/Regular/jaapokki-regular.eot");
   /* IE9 Compat Modes */
-  src: url("assets/fonts/Jaapokki/Regular/jaapokki-regular.eot?#iefix") format("embedded-opentype"), url("assets/fonts/Jaapokki/Regular/Jaapokki-Regular.otf") format("otf"), url("assets/fonts/Jaapokki/Regular/jaapokki-regular.woff") format("woff"), url("assets/fonts/Jaapokki/Regular/jaapokki-regular.ttf") format("truetype"), url("assets/fonts/Jaapokki/Regular/jaapokki-regular.svg#svgFontName") format("svg");
+  src: url("../assets/fonts/Jaapokki/Regular/jaapokki-regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Jaapokki/Regular/Jaapokki-Regular.otf") format("otf"), url("../assets/fonts/Jaapokki/Regular/jaapokki-regular.woff") format("woff"), url("../assets/fonts/Jaapokki/Regular/jaapokki-regular.ttf") format("truetype"), url("../assets/fonts/Jaapokki/Regular/jaapokki-regular.svg#svgFontName") format("svg");
   /* Legacy iOS */ }
 
 @font-face {
   font-family: 'Jaapokki Enchance';
-  src: url("assets/fonts/Jaapokki/Enchance/jaapokkienchance-regular.eot");
+  src: url("../assets/fonts/Jaapokki/Enchance/jaapokkienchance-regular.eot");
   /* IE9 Compat Modes */
-  src: url("assets/fonts/Jaapokki/Enchance/jaapokkienchance-regular.eot?#iefix") format("embedded-opentype"), url("assets/fonts/Jaapokki/Enchance/Jaapokkienchance-Regular.otf") format("otf"), url("assets/fonts/Jaapokki/Enchance/jaapokkienchance-regular.woff") format("woff"), url("assets/fonts/Jaapokki/Enchance/jaapokkienchance-regular.ttf") format("truetype"), url("assets/fonts/Jaapokki/Enchance/jaapokkienchance-regular.svg#svgFontName") format("svg");
+  src: url("../assets/fonts/Jaapokki/Enchance/jaapokkienchance-regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Jaapokki/Enchance/Jaapokkienchance-Regular.otf") format("otf"), url("../assets/fonts/Jaapokki/Enchance/jaapokkienchance-regular.woff") format("woff"), url("../assets/fonts/Jaapokki/Enchance/jaapokkienchance-regular.ttf") format("truetype"), url("../assets/fonts/Jaapokki/Enchance/jaapokkienchance-regular.svg#svgFontName") format("svg");
   /* Legacy iOS */ }
 
 @font-face {
   font-family: 'Jaapokki Subtract';
-  src: url("assets/fonts/Jaapokki/Subtract/jaapokkisubtract-regular.eot");
+  src: url("../assets/fonts/Jaapokki/Subtract/jaapokkisubtract-regular.eot");
   /* IE9 Compat Modes */
-  src: url("assets/fonts/Jaapokki/Subtract/jaapokkisubtract-regular.eot?#iefix") format("embedded-opentype"), url("assets/fonts/Jaapokki/Subtract/Jaapokkisubtract-Regular.otf") format("otf"), url("assets/fonts/Jaapokki/Subtract/jaapokkisubtract-regular.woff") format("woff"), url("assets/fonts/Jaapokki/Subtract/jaapokkisubtract-regular.ttf") format("truetype"), url("assets/fonts/Jaapokki/Subtract/jaapokkisubtract-regular.svg#svgFontName") format("svg");
+  src: url("../assets/fonts/Jaapokki/Subtract/jaapokkisubtract-regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Jaapokki/Subtract/Jaapokkisubtract-Regular.otf") format("otf"), url("../assets/fonts/Jaapokki/Subtract/jaapokkisubtract-regular.woff") format("woff"), url("../assets/fonts/Jaapokki/Subtract/jaapokkisubtract-regular.ttf") format("truetype"), url("../assets/fonts/Jaapokki/Subtract/jaapokkisubtract-regular.svg#svgFontName") format("svg");
   /* Legacy iOS */ }
 
 /*  Agregado de comportamiento Scroll Suave  */
