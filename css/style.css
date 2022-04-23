@@ -1,0 +1,697 @@
+@charset "UTF-8";
+/* Local Fonts "Jaapokki" Porque me encanta y no esta en Google Fonts */
+@font-face {
+  font-family: 'Jaapokki Regular';
+  src: url("assets/fonts/Jaapokki/Regular/jaapokki-regular.eot");
+  /* IE9 Compat Modes */
+  src: url("assets/fonts/Jaapokki/Regular/jaapokki-regular.eot?#iefix") format("embedded-opentype"), url("assets/fonts/Jaapokki/Regular/Jaapokki-Regular.otf") format("otf"), url("assets/fonts/Jaapokki/Regular/jaapokki-regular.woff") format("woff"), url("assets/fonts/Jaapokki/Regular/jaapokki-regular.ttf") format("truetype"), url("assets/fonts/Jaapokki/Regular/jaapokki-regular.svg#svgFontName") format("svg");
+  /* Legacy iOS */ }
+
+@font-face {
+  font-family: 'Jaapokki Enchance';
+  src: url("assets/fonts/Jaapokki/Enchance/jaapokkienchance-regular.eot");
+  /* IE9 Compat Modes */
+  src: url("assets/fonts/Jaapokki/Enchance/jaapokkienchance-regular.eot?#iefix") format("embedded-opentype"), url("assets/fonts/Jaapokki/Enchance/Jaapokkienchance-Regular.otf") format("otf"), url("assets/fonts/Jaapokki/Enchance/jaapokkienchance-regular.woff") format("woff"), url("assets/fonts/Jaapokki/Enchance/jaapokkienchance-regular.ttf") format("truetype"), url("assets/fonts/Jaapokki/Enchance/jaapokkienchance-regular.svg#svgFontName") format("svg");
+  /* Legacy iOS */ }
+
+@font-face {
+  font-family: 'Jaapokki Subtract';
+  src: url("assets/fonts/Jaapokki/Subtract/jaapokkisubtract-regular.eot");
+  /* IE9 Compat Modes */
+  src: url("assets/fonts/Jaapokki/Subtract/jaapokkisubtract-regular.eot?#iefix") format("embedded-opentype"), url("assets/fonts/Jaapokki/Subtract/Jaapokkisubtract-Regular.otf") format("otf"), url("assets/fonts/Jaapokki/Subtract/jaapokkisubtract-regular.woff") format("woff"), url("assets/fonts/Jaapokki/Subtract/jaapokkisubtract-regular.ttf") format("truetype"), url("assets/fonts/Jaapokki/Subtract/jaapokkisubtract-regular.svg#svgFontName") format("svg");
+  /* Legacy iOS */ }
+
+@font-face {
+  font-family: 'Jaapokki Regular';
+  src: url("assets/fonts/Jaapokki/Regular/jaapokki-regular.eot");
+  /* IE9 Compat Modes */
+  src: url("assets/fonts/Jaapokki/Regular/jaapokki-regular.eot?#iefix") format("embedded-opentype"), url("assets/fonts/Jaapokki/Regular/Jaapokki-Regular.otf") format("otf"), url("assets/fonts/Jaapokki/Regular/jaapokki-regular.woff") format("woff"), url("assets/fonts/Jaapokki/Regular/jaapokki-regular.ttf") format("truetype"), url("assets/fonts/Jaapokki/Regular/jaapokki-regular.svg#svgFontName") format("svg");
+  /* Legacy iOS */ }
+
+/*  Agregado de comportamiento Scroll Suave  */
+html {
+  scroll-behavior: smooth; }
+
+/************************************************** Reset Estilos Globales **************************************************/
+* {
+  margin: 0;
+  padding: 0; }
+
+/************************************************ Animations & Transformations ************************************************/
+/* Animación h1 left to rigth + Fade in Opacity */
+@keyframes left-in {
+  0% {
+    top: -10%;
+    opacity: 0; }
+  100% {
+    top: 0;
+    opacity: 1; } }
+
+/* Animación flotante Flechas */
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px); }
+  50% {
+    transform: translate(0, 10px); }
+  100% {
+    transform: translate(0, 0px); } }
+
+/* Bootstrap Accordion Arrows Custom Icons */
+.accordion-button:not(.collapsed)::after {
+  background-image: url(assets/img/back-to-top-down.png);
+  transform: rotate(-180deg); }
+
+.accordion-button::after {
+  background-image: url(assets/img/back-to-top-down.png); }
+
+/************************************************** Estilos Globales **************************************************/
+h1 {
+  font-family: 'Jaapokki Subtract';
+  font-weight: bold;
+  font-size: 3rem;
+  color: #323333;
+  text-transform: uppercase;
+  position: relative;
+  animation-name: left-in;
+  animation-duration: 1s; }
+
+h2 {
+  font-family: 'Jaapokki Regular';
+  font-weight: bold;
+  font-size: 2rem;
+  color: #323333;
+  text-transform: uppercase;
+  text-align: center; }
+
+p {
+  font-family: 'Jaapokki Regular';
+  font-weight: 500;
+  font-size: 14px;
+  color: #323333; }
+
+a {
+  color: #323333;
+  font-weight: bold; }
+
+button.btn-black {
+  font-family: 'Jaapokki Regular';
+  background-color: #323333;
+  color: #F2F2F2;
+  padding: 5px 25px;
+  border-radius: 5px;
+  cursor: pointer; }
+
+ul {
+  list-style-type: none; }
+
+img {
+  max-width: 100%; }
+  img.slider-imgs {
+    width: 75%;
+    margin: auto; }
+
+/************************************************** Header - Menu - Navbar **************************************************/
+nav#nav {
+  box-shadow: 0 2px 5px 0 RGB(0, 0, 0, 0.1) !important; }
+
+.navbar-nav .nav-link, .dropdown-menu .dropdown-item {
+  font-family: 'Jaapokki Regular' !important; }
+
+ul.navigation-list {
+  padding-left: 0 !important; }
+
+.navbar-light .navbar-nav .nav-link {
+  font-weight: normal; }
+  .navbar-light .navbar-nav .nav-link.active {
+    font-weight: bold; }
+
+.navbar-light .navbar-brand {
+  display: flex; }
+
+.navbar-light .navbar-toggler {
+  border-color: transparent; }
+
+a li {
+  font-size: 12px;
+  font-family: 'Jaapokki Regular';
+  color: #323333;
+  text-transform: uppercase; }
+  a li:hover {
+    font-family: 'Jaapokki Regular';
+    color: #6A6A6A; }
+
+nav img.logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 50px; }
+
+/*Bootstrap Mobile Menu*/
+.navbar {
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem; }
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url(assets/img/hamburguer.png) !important; }
+
+.navbar-toggler:focus, .navbar-toggler:active {
+  outline: none;
+  box-shadow: none; }
+
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none; }
+
+.dropdown-menu {
+  background-color: #f8f9fa;
+  border: none; }
+
+a.dropdown-item {
+  padding: 0.25rem 1rem; }
+
+.dropdown-item:focus, .dropdown-item:hover {
+  color: #323333;
+  background-color: #e9ecef; }
+
+.dropdown-item.active, .dropdown-item:active {
+  color: #323333;
+  text-decoration: none;
+  background-color: #e9ecef; }
+
+/* Dropdown Sub-Menu Arrow Alineación Vertical */
+a#navbarDropdownMenuLink.nav-link.dropdown-toggle::after {
+  vertical-align: 0.15em !important; }
+
+/* Navbar Padding Right & Left */
+.navbar > .container-fluid, .navbar > .container-lg, .navbar > .container-md, .navbar > .container-sm, .navbar > .container-xl, .navbar > .container-xxl {
+  padding: 0 75px; }
+
+/************************************************** Pagina Home **************************************************/
+/* Secciones Edificios Home */
+section.intro {
+  height: 100vh;
+  background-color: #F2F2F2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 75px;
+  text-align: center; }
+
+p.home-intro {
+  padding: 0 200px; }
+
+.section-1 {
+  height: 100%;
+  background-color: #B4BDCB;
+  padding: 75px; }
+
+.section-2 {
+  height: 100%;
+  background-color: #F2F2F2;
+  padding: 75px; }
+
+.section-3 {
+  height: 100%;
+  background-color: #B4BDCB;
+  padding: 75px; }
+
+.section-4 {
+  height: 100%;
+  background-color: #F2F2F2;
+  padding: 75px; }
+
+.section-5 {
+  height: 100%;
+  background-color: #B4BDCB;
+  padding: 75px; }
+
+h2.building-title {
+  padding-bottom: 75px; }
+
+/* Display Grid - 2 Columnas Secciones */
+section img.section-img {
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); }
+
+section div.column-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: flex-start;
+  justify-content: flex-start; }
+
+p.section-text {
+  padding-bottom: 30px; }
+
+img.anchor-arrow {
+  padding-top: 30px;
+  width: 40px;
+  animation-name: floating;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out; }
+
+/************************************************** Pagina 2 - Detalles de Edificios - Estilos Globales  **************************************************/
+section.section-presentation {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 75px; }
+
+section.section-table h2, section.section-slider, section.section-location {
+  padding-top: 75px; }
+
+iframe.location-map {
+  width: 100%;
+  padding: 0; }
+
+/* Bootstrap Carrousel Custom Next & Prev Arrows */
+.carousel-control-next-icon {
+  background-image: url(assets/img/slider-arrow-rigth.png); }
+
+span.carousel-control-next-icon {
+  filter: none !important; }
+
+.carousel-control-prev-icon {
+  background-image: url(assets/img/slider-arrow-left.png); }
+
+span.carousel-control-prev-icon {
+  filter: none !important; }
+
+/********** Comparative Tables **********/
+main.table-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 75px; }
+
+table {
+  width: 100vw;
+  height: 50vh;
+  background-color: #f8f9fa;
+  border: 1px solid #a2a9b1;
+  border-collapse: collapse;
+  font-family: 'Jaapokki Regular';
+  color: #323333;
+  font-size: 14px; }
+
+th {
+  border: 1px solid #a2a9b1; }
+
+td {
+  text-align: center;
+  border: 1px solid #a2a9b1; }
+
+tr {
+  background-color: #f8f9fa;
+  border: 1px solid #a2a9b1; }
+  tr.tr-heading {
+    background-color: #eaecf0;
+    text-align: center; }
+  tr.tr-current {
+    background-color: #B4BDCB; }
+
+td img.flag {
+  padding-right: 10px;
+  max-width: 20px;
+  max-height: 10px; }
+
+/********** Pagina Detalle Edificio Burj Khalifa Building **********/
+.section-background-burj {
+  background-image: url("assets/img/Burj-Khalifa-banner.webp");
+  /* The image used */
+  height: 65vh;
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */ }
+
+/********** Pagina Detalle Edificio Abraj al Bait Building **********/
+.section-background-abraj {
+  background-image: url("assets/img/abraj-al-bait-banner.webp");
+  /* The image used */
+  height: 65vh;
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */ }
+
+/********** Pagina Detalle Edificio Merdeka 118 Building **********/
+.section-background-merdeka {
+  background-image: url("assets/img/meerdeka-118-banner.webp");
+  /* The image used */
+  height: 65vh;
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */ }
+
+/********** Pagina Detalle Edificio Ping An Finance Center **********/
+.section-background-fc {
+  background-image: url("assets/img/ping-an-finance-center-banner.webp");
+  /* The image used */
+  height: 65vh;
+  background-position: top;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */ }
+
+/********** Pagina Detalle Edificio Shangai Tower **********/
+.section-background-shangai {
+  background-image: url("assets/img/shanghai-tower-banner.webp");
+  /* The image used */
+  height: 65vh;
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */ }
+
+/************************************************** Pagina 3 - Architects **************************************************/
+h2.architect-name {
+  font-family: 'Jaapokki Enchance';
+  font-size: 24px;
+  font-weight: 700;
+  background-color: #FFFFFF;
+  border-radius: 0 0 10px 10px;
+  margin-top: -5px;
+  padding-top: 10px; }
+
+img.architects-img {
+  width: 100%;
+  border-radius: 10px 10px 0 0; }
+
+div.accordion {
+  border-radius: 10px 10px 0 0; }
+
+div.accordion-body {
+  font-family: 'Jaapokki Enchance'; }
+
+button.accordion-button {
+  font-size: 28px;
+  font-family: 'Jaapokki Enchance';
+  font-weight: 700;
+  word-spacing: 20px;
+  color: #323333; }
+
+p.buildings {
+  text-align: center; }
+
+section.architect-1 {
+  background-color: #B4BDCB;
+  padding: 75px 75px 125px 75px; }
+
+section.architect-2 {
+  background-color: #F2F2F2;
+  padding: 75px 75px 125px 75px; }
+
+section.architect-3 {
+  background-color: #B4BDCB;
+  padding: 75px 75px 125px 75px; }
+
+section.architect-4 {
+  background-color: #F2F2F2;
+  padding: 75px 75px 125px 75px; }
+
+section.architect-5 {
+  background-color: #B4BDCB;
+  padding: 75px 75px 125px 75px; }
+
+section.multimedia h1 {
+  padding: 50px 75px;
+  text-align: center;
+  background-color: #F2F2F2; }
+
+/************************************************** Pagina 4 - Multimedia **************************************************/
+.grid-multimedia {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: #F2F2F2;
+  padding-bottom: 75px; }
+
+/************************************************** Pagina 5 - Contacto **************************************************/
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
+  border: none;
+  margin: 0 auto;
+  width: 40%; }
+
+input.name {
+  width: 100%;
+  border: solid;
+  border-width: 0 0 2px 0;
+  padding: 10px 5px; }
+
+input.phone, input.email {
+  width: 100%;
+  margin-top: 20px;
+  border: solid;
+  border-width: 0 0 2px 0;
+  padding: 10px 5px; }
+
+select.form-select {
+  width: 100%;
+  margin-top: 20px;
+  border: solid;
+  border-width: 0 0 2px 0;
+  padding: 10px 0; }
+
+textarea.message {
+  width: 100%;
+  margin-top: 20px;
+  border: solid;
+  border-width: 0 0 2px 0;
+  padding: 10px 5px; }
+
+fieldset {
+  border: none; }
+
+h1.contact-title {
+  padding-top: 50px;
+  text-align: center; }
+
+/************************************************** Footer  **************************************************/
+footer {
+  background-color: #F2F2F2;
+  padding: 75px; }
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr;
+  padding-bottom: 25px; }
+
+p.footer-text {
+  font-family: 'Jaapokki Regular';
+  font-size: 14px;
+  font-weight: 500;
+  color: #323333;
+  display: flex;
+  justify-content: center;
+  padding-right: 100px;
+  padding-top: 10px;
+  text-transform: none; }
+
+footer h3 {
+  font-family: 'Jaapokki Regular';
+  font-size: 18px;
+  font-weight: 700;
+  color: #323333; }
+  footer h3.rrss {
+    padding-top: 20px; }
+
+footer h5 {
+  font-family: 'Jaapokki Enchance';
+  font-size: 18px;
+  font-weight: bold;
+  color: #323333;
+  text-transform: uppercase;
+  padding-top: 25px;
+  border-top: solid 1px #323333; }
+
+footer p {
+  font-family: 'Jaapokki Regular';
+  font-size: 12px;
+  font-weight: bold;
+  color: #323333;
+  text-transform: uppercase;
+  justify-content: flex-start; }
+
+footer a {
+  text-decoration: none; }
+
+footer img.logo {
+  width: 30px;
+  height: 30px; }
+
+div.footer-nav ul a {
+  font-weight: 400; }
+
+/************************************************** MEDIA QUERIES  **************************************************/
+/************************************************************************************************************************
+  ************************************** Max-width: 767px Mobile Media Querie ***************************************
+  ************************************************************************************************************************/
+@media (max-width: 767px) {
+  /* Estilos Globales */
+  img {
+    width: 100%; }
+  /* Pagina Home */
+  /* Secciones Edificios Home */
+  div.grid-container {
+    display: grid;
+    grid-template-columns: 1fr; }
+  .section-1, .section-2, .section-3, .section-4, .section-5 {
+    padding: 75px 25px; }
+  h2.building-title, p.section-text {
+    padding-bottom: 30px; }
+  img.anchor-arrow {
+    padding-top: 30px;
+    width: 30px; }
+  /* Page Architects */
+  section.architect-1 {
+    background-color: #B4BDCB;
+    padding: 75px 25px; }
+  section.architect-2 {
+    background-color: #F2F2F2;
+    padding: 75px 25px; }
+  section.architect-3 {
+    background-color: #B4BDCB;
+    padding: 75px 25px; }
+  section.architect-4 {
+    background-color: #F2F2F2;
+    padding: 75px 25px; }
+  section.architect-5 {
+    background-color: #B4BDCB;
+    padding: 75px 25px; }
+  h2.architect-name {
+    font-size: 14px; }
+  button.accordion-button {
+    font-size: 18px; }
+  /* Page Multimedia */
+  .grid-multimedia {
+    display: grid;
+    grid-template-columns: 1fr !important; }
+  /* Page Contacto */
+  /* Footer */
+  footer {
+    background-color: #F2F2F2;
+    padding: 75px 25px; }
+  .footer-container {
+    display: grid;
+    grid-template-columns: 1fr; }
+  .footer-col2, .footer-col3 {
+    padding-top: 20px; } }
+
+/************************************************************************************************************************
+  ************************************** Max-width: 1024px Tablet-Ipad Media Querie ***************************************
+  ************************************************************************************************************************/
+/* Pagina Home */
+@media (max-width: 1024px) {
+  /* Secciones Edificios Home */
+  /* Grid - 1 Column Secciones Edificios Home Tablet */
+  div.grid-container {
+    display: grid;
+    grid-template-columns: 1fr; }
+  p.section-text {
+    padding-top: 30px; }
+  section div.col-1 {
+    margin-right: 0; }
+  /* Boostrap Mobile Menu */
+  a.dropdown-item {
+    padding: 0.25rem 0; }
+  /* Page Architects */
+  section div.col-2-architects {
+    padding-top: 75px;
+    margin-left: 0px; }
+  /* Page Multimedia */
+  .grid-multimedia {
+    display: grid;
+    grid-template-columns: 1fr 1fr; }
+  /* Footer */
+  .footer-container {
+    display: grid;
+    grid-template-columns: 1fr; }
+  img {
+    width: 100%; }
+  .footer-col2, .footer-col3 {
+    padding-top: 20px; } }
+
+/************************************************************************************************************************
+  ************************************** Max-width: 1200px Ipad Pro Media Querie ***************************************
+  ************************************************************************************************************************/
+@media (max-width: 1200px) {
+  /* Estilos Globales */
+  h1 {
+    font-family: 'Jaapokki Subtract';
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #323333;
+    text-transform: uppercase; }
+  h2 {
+    font-family: 'Jaapokki Regular';
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #323333;
+    text-transform: uppercase;
+    text-align: center; }
+  p.home-intro {
+    padding: 0; }
+  img.anchor-arrow {
+    padding-top: 30px;
+    width: 40px; }
+  /* Navbar Padding Right & Left */
+  .navbar > .container-fluid, .navbar > .container-lg, .navbar > .container-md, .navbar > .container-sm, .navbar > .container-xl, .navbar > .container-xxl {
+    padding: 0 25px; }
+  /* Page Home */
+  /* Pages Detalles Edificios */
+  section.section-presentation {
+    height: 100%;
+    padding: 75px 25px; }
+  section.intro {
+    height: 75vh;
+    padding: 0 25px; }
+  main.table-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 25px; }
+  /********** Pagina Detalle Edificio Burj Khalifa Building **********/
+  .section-background-burj, .section-background-abraj, .section-background-merdeka, .section-background-fc, .section-background-shangai {
+    height: 40vh; }
+  /********** Pagina Detalle Edificio Abraj al Bait Building **********/
+  /********** Pagina Detalle Edificio Merdeka 118 Building **********/
+  /********** Pagina Detalle Edificio Ping An Finance Center **********/
+  /********** Pagina Detalle Edificio Shangai Tower **********/
+  /* Page Multimedia */
+  .grid-multimedia {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; }
+  /* Page Architects */
+  p.architects-text {
+    padding-bottom: 40px; }
+  /* Page Contacto */
+  form {
+    width: 60%; }
+  /* Footer */
+  footer {
+    padding: 75px 25px; }
+    footer h3 {
+      font-family: 'Jaapokki Regular';
+      font-size: 14px;
+      font-weight: bold;
+      color: #323333; }
+  p.footer-text, div.footer-nav {
+    padding-bottom: 20px; } }

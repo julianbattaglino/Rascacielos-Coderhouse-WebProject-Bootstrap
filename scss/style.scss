@@ -154,7 +154,7 @@
   /************************************************** Header - Menu - Navbar **************************************************/
   
   nav#nav {
-    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 10%) !important;
+    box-shadow: 0 2px 5px 0 RGB(0, 0, 0, .10) !important;
   }
   
   .navbar-nav .nav-link, .dropdown-menu .dropdown-item {
@@ -318,7 +318,7 @@
   section {
     img.section-img {
       padding: 1rem;
-      box-shadow: 0 4px 6px rgb(0 0 0 / 30%);
+      box-shadow: 0 4px 6px rgba(0,0,0,.3);
     }
   
     div.column-2 {
