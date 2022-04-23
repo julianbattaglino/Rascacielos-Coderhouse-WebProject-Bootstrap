@@ -191,8 +191,8 @@ nav img.logo {
 
 /*Bootstrap Mobile Menu*/
 .navbar {
-  padding-top: 0.6rem;
-  padding-bottom: 0.6rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
 }
 .navbar-light .navbar-toggler-icon {
   background-image: url(assets/img/hamburguer.png) !important;
