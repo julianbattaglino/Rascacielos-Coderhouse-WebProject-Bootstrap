@@ -343,6 +343,50 @@ section.multimedia h1 {
   background-color: #F2F2F2;
   padding-bottom: 75px; }
 
+/************************************************** Pagina 5 - Contacto **************************************************/
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
+  border: none;
+  margin: 0 auto;
+  width: 40%; }
+
+input.name {
+  width: 100%;
+  border: solid;
+  border-width: 0 0 2px 0;
+  padding: 10px 5px; }
+
+input.phone, input.email {
+  width: 100%;
+  margin-top: 20px;
+  border: solid;
+  border-width: 0 0 2px 0;
+  padding: 10px 5px; }
+
+select.form-select {
+  width: 100%;
+  margin-top: 20px;
+  border: solid;
+  border-width: 0 0 2px 0;
+  padding: 10px 0; }
+
+textarea.message {
+  width: 100%;
+  margin-top: 20px;
+  border: solid;
+  border-width: 0 0 2px 0;
+  padding: 10px 5px; }
+
+fieldset {
+  border: none; }
+
+h1.contact-title {
+  padding-top: 50px;
+  text-align: center; }
+
 /************************************************** Footer  **************************************************/
 footer {
   background-color: #F2F2F2;
@@ -488,50 +532,6 @@ a#navbarDropdownMenuLink.nav-link.dropdown-toggle::after {
 /* Navbar Padding Right & Left */
 .navbar > .container-fluid, .navbar > .container-lg, .navbar > .container-md, .navbar > .container-sm, .navbar > .container-xl, .navbar > .container-xxl {
   padding: 0 75px; }
-
-/************************************************** Pagina 5 - Contacto **************************************************/
-form {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 50px 20px;
-  border: none;
-  margin: 0 auto;
-  width: 40%; }
-
-input.name {
-  width: 100%;
-  border: solid;
-  border-width: 0 0 2px 0;
-  padding: 10px 5px; }
-
-input.phone, input.email {
-  width: 100%;
-  margin-top: 20px;
-  border: solid;
-  border-width: 0 0 2px 0;
-  padding: 10px 5px; }
-
-select.form-select {
-  width: 100%;
-  margin-top: 20px;
-  border: solid;
-  border-width: 0 0 2px 0;
-  padding: 10px 0; }
-
-textarea.message {
-  width: 100%;
-  margin-top: 20px;
-  border: solid;
-  border-width: 0 0 2px 0;
-  padding: 10px 5px; }
-
-fieldset {
-  border: none; }
-
-h1.contact-title {
-  padding-top: 50px;
-  text-align: center; }
 
 /************************************************** MEDIA QUERIES  **************************************************/
 /************************************************************************************************************************
