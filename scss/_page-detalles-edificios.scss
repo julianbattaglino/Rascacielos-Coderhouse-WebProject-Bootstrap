@@ -48,15 +48,15 @@
     padding: 50px 75px;
   }
   
+  /*SCSS MAP FOR TABLES*/
   table {
-    width: 100vw;
-    height: 50vh;
-    background-color: #f8f9fa;
-    border: 1px solid #a2a9b1;
-    border-collapse: collapse;
-    font-family: 'Jaapokki Regular';
-    color: #323333;
-    font-size: 14px;
+    width: map-get($table-styles, ancho);
+    height: map-get($table-styles, alto);
+    background-color: map-get($table-styles, bg-color);
+    color: map-get($table-styles, font-color);
+    border: map-get($table-styles, border-style);
+    font-family: map-get($table-styles, font);
+    font-size: map-get($table-styles, font-size);
   }
   
   th {

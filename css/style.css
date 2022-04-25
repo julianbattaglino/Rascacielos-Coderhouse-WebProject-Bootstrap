@@ -246,15 +246,14 @@ main.table-container {
   justify-content: center;
   padding: 50px 75px; }
 
+/*SCSS MAP FOR TABLES*/
 table {
   width: 100vw;
   height: 50vh;
   background-color: #f8f9fa;
-  border: 1px solid #a2a9b1;
-  border-collapse: collapse;
-  font-family: 'Jaapokki Regular';
   color: #323333;
-  font-size: 14px; }
+  border: 1px solid #a2a9b1;
+  font-family: "Jaapokki Regular"; }
 
 th {
   border: 1px solid #a2a9b1; }
