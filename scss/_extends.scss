@@ -1,0 +1,7 @@
+  /*@extend para Buttons*/
+  .btn--hover {
+    @extend button.btn-black;
+    &:hover {
+      @extend .hover
+    }
+  }

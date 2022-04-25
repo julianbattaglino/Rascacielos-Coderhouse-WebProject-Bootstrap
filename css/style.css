@@ -21,6 +21,7 @@
   src: url("../assets/fonts/Jaapokki/Subtract/jaapokkisubtract-regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Jaapokki/Subtract/Jaapokkisubtract-Regular.otf") format("otf"), url("../assets/fonts/Jaapokki/Subtract/jaapokkisubtract-regular.woff") format("woff"), url("../assets/fonts/Jaapokki/Subtract/jaapokkisubtract-regular.ttf") format("truetype"), url("../assets/fonts/Jaapokki/Subtract/jaapokkisubtract-regular.svg#svgFontName") format("svg");
   /* Legacy iOS */ }
 
+/*@extend para Buttons*/
 /************************************************** Header - Menu - Navbar **************************************************/
 nav#nav {
   box-shadow: 0 2px 5px 0 RGB(0, 0, 0, 0.1) !important; }
@@ -524,7 +525,6 @@ button.btn-black, .btn--hover {
   box-shadow: 5px 5px 0px #a0a8b5, -5px -5px 0px #c8d2e1;
   border: none; }
 
-/*@extend para Buttons*/
 ul {
   list-style-type: none; }
 
