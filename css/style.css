@@ -510,14 +510,20 @@ a {
   a:hover {
     color: #6A6A6A; }
 
-button.btn-black {
+.hover, .btn--hover:hover {
+  box-shadow: inset 5px 5px 10px #99a1ad, inset -5px -5px 10px #cfd9e9; }
+
+button.btn-black, .btn--hover {
   font-family: 'Jaapokki Regular';
-  background-color: #323333;
-  color: #F2F2F2;
+  background-color: #B4BDCB;
+  color: #323333;
   padding: 5px 25px;
   border-radius: 5px;
-  cursor: pointer; }
+  cursor: pointer;
+  box-shadow: 5px 5px 0px #a0a8b5, -5px -5px 0px #c8d2e1;
+  border: none; }
 
+/*@extend para Buttons*/
 ul {
   list-style-type: none; }
 

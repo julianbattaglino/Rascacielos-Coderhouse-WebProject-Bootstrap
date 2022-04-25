@@ -103,14 +103,30 @@
     }
   }
   
+  .hover {
+    box-shadow: inset 5px 5px 10px #99a1ad,
+    inset -5px -5px 10px #cfd9e9;  
+  }
+
   button.btn-black {
     font-family: 'Jaapokki Regular';
-    background-color: #323333;
-    color: #F2F2F2;
+    background-color: #B4BDCB;
+    color: #323333;
     padding: 5px 25px;
     border-radius: 5px;
     cursor: pointer;
+    box-shadow: 5px 5px 0px #a0a8b5, -5px -5px 0px #c8d2e1;
+    border: none;
   }
+
+  /*@extend para Buttons*/
+  .btn--hover {
+    @extend button.btn-black;
+    &:hover {
+      @extend .hover
+    }
+  }
+
   
   ul {
     list-style-type: none;
