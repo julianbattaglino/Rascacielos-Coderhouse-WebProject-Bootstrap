@@ -408,6 +408,13 @@ section.multimedia h1 {
   background-color: #F2F2F2;
   padding-bottom: 75px; }
 
+img.filter-img {
+  filter: grayscale(80%); }
+
+img.filter-img:hover {
+  transition: 0.4s;
+  filter: grayscale(0%); }
+
 /************************************************** Pagina 5 - Contacto **************************************************/
 form {
   display: flex;
