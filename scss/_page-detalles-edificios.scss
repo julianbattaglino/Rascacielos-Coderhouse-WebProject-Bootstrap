@@ -4,7 +4,7 @@
   section {
     &.section-presentation {
       height: 50vh;
-      @include flex-start-column
+      @include flex-start-column;
       padding: 0 75px;
     }
   
