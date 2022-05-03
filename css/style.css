@@ -223,9 +223,9 @@ img.anchor-arrow {
 section.section-presentation {
   height: 50vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
   padding: 0 75px; }
 
 section.section-table h2, section.section-slider, section.section-location {
@@ -401,6 +401,10 @@ section.multimedia h1 {
   text-align: center;
   background-color: #F2F2F2; }
 
+@media (max-width: 767.98px) {
+  div.accordion-body {
+    font-size: 12px; } }
+
 /************************************************** Pagina 4 - Multimedia **************************************************/
 .grid-multimedia {
   display: grid;
@@ -410,10 +414,9 @@ section.multimedia h1 {
 
 img.filter-img {
   filter: grayscale(80%); }
-
-img.filter-img:hover {
-  transition: 0.4s;
-  filter: grayscale(0%); }
+  img.filter-img:hover {
+    transition: 0.4s;
+    filter: grayscale(0%); }
 
 /************************************************** Pagina 5 - Contacto **************************************************/
 form {
@@ -462,7 +465,8 @@ h1.contact-title {
 
 /*  Agregado de comportamiento Scroll Suave  */
 html {
-  scroll-behavior: smooth; }
+  scroll-behavior: smooth;
+  scroll-padding-top: 20px; }
 
 /************************************************** Reset Estilos Globales **************************************************/
 * {

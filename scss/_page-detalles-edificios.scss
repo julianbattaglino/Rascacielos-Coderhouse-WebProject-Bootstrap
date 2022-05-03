@@ -1,10 +1,11 @@
   @import "maps";
+  @import "mixins";
 
   /************************************************** Pagina 2 - Detalles de Edificios - Estilos Globales  **************************************************/
   section {
     &.section-presentation {
       height: 50vh;
-      @include flex-start-column;
+      @include flex-center-column;
       padding: 0 75px;
     }
   
