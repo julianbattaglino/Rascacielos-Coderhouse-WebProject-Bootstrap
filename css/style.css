@@ -510,7 +510,8 @@ h1 {
   position: relative;
   animation-name: left-in;
   animation-duration: 1s;
-  margin: 0; }
+  margin: 0;
+  padding-bottom: 20px; }
 
 h2 {
   font-family: 'Jaapokki Regular';
