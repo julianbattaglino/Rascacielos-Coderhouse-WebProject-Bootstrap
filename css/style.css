@@ -302,62 +302,42 @@ td img.flag {
 /********** Pagina Detalle Edificio Burj Khalifa Building **********/
 .section-background-burj {
   background-image: url("../assets/img/Burj-Khalifa-banner.webp");
-  /* The image used */
   height: 65vh;
   background-position: center;
-  /* Center the image */
   background-repeat: no-repeat;
-  /* Do not repeat the image */
-  background-size: cover;
-  /* Resize the background image to cover the entire container */ }
+  background-size: cover; }
 
 /********** Pagina Detalle Edificio Abraj al Bait Building **********/
 .section-background-abraj {
   background-image: url("../assets/img/abraj-al-bait-banner.webp");
-  /* The image used */
   height: 65vh;
   background-position: center;
-  /* Center the image */
   background-repeat: no-repeat;
-  /* Do not repeat the image */
-  background-size: cover;
-  /* Resize the background image to cover the entire container */ }
+  background-size: cover; }
 
 /********** Pagina Detalle Edificio Merdeka 118 Building **********/
 .section-background-merdeka {
   background-image: url("../assets/img/meerdeka-118-banner.webp");
-  /* The image used */
   height: 65vh;
   background-position: center;
-  /* Center the image */
   background-repeat: no-repeat;
-  /* Do not repeat the image */
-  background-size: cover;
-  /* Resize the background image to cover the entire container */ }
+  background-size: cover; }
 
 /********** Pagina Detalle Edificio Ping An Finance Center **********/
 .section-background-fc {
   background-image: url("../assets/img/ping-an-finance-center-banner.webp");
-  /* The image used */
   height: 65vh;
   background-position: top;
-  /* Center the image */
   background-repeat: no-repeat;
-  /* Do not repeat the image */
-  background-size: cover;
-  /* Resize the background image to cover the entire container */ }
+  background-size: cover; }
 
 /********** Pagina Detalle Edificio Shangai Tower **********/
 .section-background-shangai {
   background-image: url("../assets/img/shanghai-tower-banner.webp");
-  /* The image used */
   height: 65vh;
   background-position: center;
-  /* Center the image */
   background-repeat: no-repeat;
-  /* Do not repeat the image */
-  background-size: cover;
-  /* Resize the background image to cover the entire container */ }
+  background-size: cover; }
 
 /************************************************** Pagina 3 - Architects **************************************************/
 h2.architect-name {
