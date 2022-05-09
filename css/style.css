@@ -22,6 +22,19 @@
   /* Legacy iOS */ }
 
 /*@extend para Buttons*/
+.hover, .btn--hover:hover {
+  box-shadow: inset 5px 5px 10px #99a1ad, inset -5px -5px 10px #cfd9e9; }
+
+button.btn-black, .btn--hover {
+  font-family: 'Jaapokki Regular';
+  background-color: #B4BDCB;
+  color: #323333;
+  padding: 5px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 5px 5px 0px #a0a8b5, -5px -5px 0px #c8d2e1;
+  border: none; }
+
 /************************************************** Header - Menu - Navbar **************************************************/
 nav#nav {
   box-shadow: 0 2px 5px 0 RGB(0, 0, 0, 0.1) !important;
@@ -533,19 +546,6 @@ a {
   a:hover {
     color: #6A6A6A; }
 
-.hover, .btn--hover:hover {
-  box-shadow: inset 5px 5px 10px #99a1ad, inset -5px -5px 10px #cfd9e9; }
-
-button.btn-black, .btn--hover {
-  font-family: 'Jaapokki Regular';
-  background-color: #B4BDCB;
-  color: #323333;
-  padding: 5px 25px;
-  border-radius: 5px;
-  cursor: pointer;
-  box-shadow: 5px 5px 0px #a0a8b5, -5px -5px 0px #c8d2e1;
-  border: none; }
-
 ul {
   list-style-type: none; }
 
@@ -604,9 +604,6 @@ a#navbarDropdownMenuLink.nav-link.dropdown-toggle::after {
   button.accordion-button {
     font-size: 18px; }
   /* Page Multimedia */
-  .grid-multimedia {
-    display: grid;
-    grid-template-columns: 1fr !important; }
   /* Page Contacto */
   /* Footer */
   footer {
@@ -642,7 +639,7 @@ a#navbarDropdownMenuLink.nav-link.dropdown-toggle::after {
   /* Page Multimedia */
   .grid-multimedia {
     display: grid;
-    grid-template-columns: 1fr 1fr; }
+    grid-template-columns: 1fr 1fr !important; }
   /* Footer */
   .footer-container {
     display: grid;
@@ -658,18 +655,9 @@ a#navbarDropdownMenuLink.nav-link.dropdown-toggle::after {
 @media (max-width: 1200px) {
   /* Estilos Globales */
   h1 {
-    font-family: 'Jaapokki Subtract';
-    font-weight: bold;
-    font-size: 1.5rem;
-    color: #323333;
-    text-transform: uppercase; }
+    font-size: 1.5rem; }
   h2 {
-    font-family: 'Jaapokki Regular';
-    font-weight: bold;
-    font-size: 1.2rem;
-    color: #323333;
-    text-transform: uppercase;
-    text-align: center; }
+    font-size: 1.2rem; }
   p.home-intro {
     padding: 0; }
   img.anchor-arrow {
@@ -695,7 +683,6 @@ a#navbarDropdownMenuLink.nav-link.dropdown-toggle::after {
     height: 40vh; }
   /* Page Multimedia */
   .grid-multimedia {
-    display: grid;
     grid-template-columns: 1fr 1fr 1fr; }
   /* Page Architects */
   p.architects-text {
@@ -707,9 +694,6 @@ a#navbarDropdownMenuLink.nav-link.dropdown-toggle::after {
   footer {
     padding: 75px 25px; }
     footer h3 {
-      font-family: 'Jaapokki Regular';
-      font-size: 14px;
-      font-weight: bold;
-      color: #323333; }
+      font-size: 14px; }
   p.footer-text, div.footer-nav {
     padding-bottom: 20px; } }

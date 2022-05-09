@@ -72,7 +72,7 @@
     font-family: 'Jaapokki Subtract';
     font-weight: bold;
     font-size: 3rem;
-    color: #323333;
+    color: $main-black;
     text-transform: uppercase;
     position: relative;
     animation-name: left-in;
@@ -85,7 +85,7 @@
     font-family: 'Jaapokki Regular';
     font-weight: bold;
     font-size: 2rem;
-    color: #323333;
+    color: $main-black;
     text-transform: uppercase;
     text-align: center;
   }
@@ -94,34 +94,18 @@
     font-family: 'Jaapokki Regular';
     font-weight: 500;
     font-size: 14px;
-    color: #323333;
+    color: $main-black;
   }
   
   
   a {
-    font-weight: $link-bold;
-    color: $link-black;
+    font-weight: $text-bold;
+    color: $main-black;
     &:hover {
-      color: $link-hover;
+      color: $main-grey;
     }
   }
-  
-  .hover {
-    box-shadow: inset 5px 5px 10px #99a1ad,
-    inset -5px -5px 10px #cfd9e9;  
-  }
-
-  button.btn-black {
-    font-family: 'Jaapokki Regular';
-    background-color: #B4BDCB;
-    color: #323333;
-    padding: 5px 25px;
-    border-radius: 5px;
-    cursor: pointer;
-    box-shadow: 5px 5px 0px #a0a8b5, -5px -5px 0px #c8d2e1;
-    border: none;
-  }
-  
+    
   ul {
     list-style-type: none;
   }
@@ -224,11 +208,6 @@
 
   /* Page Multimedia */
 
-  .grid-multimedia {
-    display: grid;
-    grid-template-columns: 1fr !important;
-  }
-
   /* Page Contacto */
 
   /* Footer */
@@ -292,7 +271,7 @@
 
   .grid-multimedia {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr !important;
   }
 
   /* Footer */
@@ -318,20 +297,11 @@
   /* Estilos Globales */
 
   h1 {
-    font-family: 'Jaapokki Subtract';
-    font-weight: bold;
     font-size: 1.5rem;
-    color: #323333;
-    text-transform: uppercase;
   }
 
   h2 {
-    font-family: 'Jaapokki Regular';
-    font-weight: bold;
     font-size: 1.2rem;
-    color: #323333;
-    text-transform: uppercase;
-    text-align: center;
   }
 
   p.home-intro {
@@ -383,7 +353,6 @@
   /* Page Multimedia */
 
   .grid-multimedia {
-    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
 
@@ -405,10 +374,7 @@
     padding: 75px 25px;
 
     h3 {
-      font-family: 'Jaapokki Regular';
       font-size: 14px;
-      font-weight: bold;
-      color: #323333;
     }
   }
 
