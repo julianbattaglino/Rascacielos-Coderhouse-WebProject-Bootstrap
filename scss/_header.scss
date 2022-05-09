@@ -1,13 +1,4 @@
 /************************************************** Header - Menu - Navbar **************************************************/
-
-nav#nav {
-  box-shadow: 0 2px 5px 0 RGB(0, 0, 0, .10) !important;
-  position: fixed; /* Make it stick/fixed */
-  top: 0; /* Stay on top */
-  width: 100%; /* Full width */
-  transition: top 0.3s; /* Transition effect when sliding down (and up) */
-}
-
 .navbar-nav .nav-link, .dropdown-menu .dropdown-item {
   font-family: 'Jaapokki Regular' !important;
 }
