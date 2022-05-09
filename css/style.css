@@ -145,7 +145,7 @@ footer h5 {
   font-weight: bold;
   color: #323333;
   text-transform: uppercase;
-  padding-top: 25px;
+  padding: 25px 0 0 0;
   border-top: solid 1px #323333; }
 
 footer p {
@@ -234,7 +234,7 @@ img.anchor-arrow {
 
 /************************************************** Pagina 2 - Detalles de Edificios - Estilos Globales  **************************************************/
 section.section-presentation {
-  height: 50vh;
+  height: 60vh;
   display: flex;
   justify-content: center;
   align-items: center;

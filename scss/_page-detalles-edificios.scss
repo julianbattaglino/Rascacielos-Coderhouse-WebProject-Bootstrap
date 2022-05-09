@@ -4,7 +4,7 @@
 /************************************************** Pagina 2 - Detalles de Edificios - Estilos Globales  **************************************************/
 section {
   &.section-presentation {
-    height: 50vh;
+    height: 60vh;
     @include flex-center-column;
     padding: 0 75px;
   }
