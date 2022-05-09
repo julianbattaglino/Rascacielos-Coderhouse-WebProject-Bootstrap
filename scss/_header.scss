@@ -1,98 +1,98 @@
-  /************************************************** Header - Menu - Navbar **************************************************/
-  
-  nav#nav {
-    box-shadow: 0 2px 5px 0 RGB(0, 0, 0, .10) !important;
-    position: fixed; /* Make it stick/fixed */
-    top: 0; /* Stay on top */
-    width: 100%; /* Full width */
-    transition: top 0.3s; /* Transition effect when sliding down (and up) */
-  }
-  
-  .navbar-nav .nav-link, .dropdown-menu .dropdown-item {
-    font-family: 'Jaapokki Regular' !important;
-  }
-  
-  ul.navigation-list {
-    padding-left: 0 !important;
-  }
-  
-  .navbar-light {
-    .navbar-nav .nav-link {
-      font-weight: normal;
-  
-      &.active {
-        font-weight: bold;
-      }
-    }
-  
-    .navbar-brand {
-      display: flex;
-    }
-  
-    .navbar-toggler {
-      border-color: transparent;
+/************************************************** Header - Menu - Navbar **************************************************/
+
+nav#nav {
+  box-shadow: 0 2px 5px 0 RGB(0, 0, 0, .10) !important;
+  position: fixed; /* Make it stick/fixed */
+  top: 0; /* Stay on top */
+  width: 100%; /* Full width */
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+}
+
+.navbar-nav .nav-link, .dropdown-menu .dropdown-item {
+  font-family: 'Jaapokki Regular' !important;
+}
+
+ul.navigation-list {
+  padding-left: 0 !important;
+}
+
+.navbar-light {
+  .navbar-nav .nav-link {
+    font-weight: normal;
+
+    &.active {
+      font-weight: bold;
     }
   }
-  
-  a li {
-    font-size: 12px;
-    font-family: 'Jaapokki Regular';
-    color: #323333;
-    text-transform: uppercase;
-  
-    &:hover {
-      font-family: 'Jaapokki Regular';
-      color: #6A6A6A;
-    }
+
+  .navbar-brand {
+    display: flex;
   }
-  
-  nav img.logo {
-    width: 30px;
-    height: 30px;
-    margin-right: 50px;
-  }
-  
-  /*Bootstrap Mobile Menu*/
-  
-  .navbar {
-    padding-top: 0.8rem;
-    padding-bottom: 0.8rem;
-  }
-  
-  .navbar-light .navbar-toggler-icon {
-    background-image: url(../assets/img/hamburguer.png) !important;
-  }
-  
+
   .navbar-toggler {
-    &:focus, &:active {
-      outline: none;
-      box-shadow: none;
-    }
+    border-color: transparent;
   }
-  
-  .navbar-toggler-icon:focus {
+}
+
+a li {
+  font-size: 12px;
+  font-family: 'Jaapokki Regular';
+  color: #323333;
+  text-transform: uppercase;
+
+  &:hover {
+    font-family: 'Jaapokki Regular';
+    color: #6A6A6A;
+  }
+}
+
+nav img.logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 50px;
+}
+
+/*Bootstrap Mobile Menu*/
+
+.navbar {
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url(../assets/img/hamburguer.png) !important;
+}
+
+.navbar-toggler {
+  &:focus, &:active {
     outline: none;
     box-shadow: none;
   }
-  
-  .dropdown-menu {
-    background-color: #f8f9fa;
-    border: none;
+}
+
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.dropdown-menu {
+  background-color: #f8f9fa;
+  border: none;
+}
+
+a.dropdown-item {
+  padding: 0.25rem 1rem;
+}
+
+.dropdown-item {
+  &:focus, &:hover {
+    color: #323333;
+    background-color: #e9ecef;
   }
-  
-  a.dropdown-item {
-    padding: 0.25rem 1rem;
+
+  &.active, &:active {
+    color: #323333;
+    text-decoration: none;
+    background-color: #e9ecef;
   }
-  
-  .dropdown-item {
-    &:focus, &:hover {
-      color: #323333;
-      background-color: #e9ecef;
-    }
-  
-    &.active, &:active {
-      color: #323333;
-      text-decoration: none;
-      background-color: #e9ecef;
-    }
-  }
+}

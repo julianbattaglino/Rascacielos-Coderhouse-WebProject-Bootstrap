@@ -1,70 +1,70 @@
-  /************************************************** Footer  **************************************************/
-  
-  footer {
-    background-color: #F2F2F2;
-    padding: 75px;
-  }
-  
-  .footer-container {
-    display: grid;
-    grid-template-columns: 2fr 2fr 1fr;
-    padding-bottom: 25px;
-  }
-  
-  p.footer-text {
+/************************************************** Footer  **************************************************/
+
+footer {
+  background-color: #F2F2F2;
+  padding: 75px;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr;
+  padding-bottom: 25px;
+}
+
+p.footer-text {
+  font-family: 'Jaapokki Regular';
+  font-size: 14px;
+  font-weight: 500;
+  color: #323333;
+  display: flex;
+  justify-content: center;
+  padding-right: 100px;
+  padding-top: 10px;
+  text-transform: none;
+}
+
+footer {
+  h3 {
     font-family: 'Jaapokki Regular';
-    font-size: 14px;
-    font-weight: 500;
+    font-size: 18px;
+    font-weight: 700;
     color: #323333;
-    display: flex;
-    justify-content: center;
-    padding-right: 100px;
-    padding-top: 10px;
-    text-transform: none;
-  }
-  
-  footer {
-    h3 {
-      font-family: 'Jaapokki Regular';
-      font-size: 18px;
-      font-weight: 700;
-      color: #323333;
-  
-      &.rrss {
-        padding-top: 20px;
-      }
-    }
-  
-    h5 {
-      font-family: 'Jaapokki Enchance';
-      font-size: 18px;
-      font-weight: bold;
-      color: #323333;
-      text-transform: uppercase;
-      padding-top: 25px;
-      border-top: solid 1px #323333;
-    }
-  
-    p {
-      font-family: 'Jaapokki Regular';
-      font-size: 12px;
-      font-weight: bold;
-      color: #323333;
-      text-transform: uppercase;
-      justify-content: flex-start;
-    }
-  
-    a {
-      text-decoration: none;
-      color: #323333 ;
-    }
-  
-    img.logo {
-      width: 30px;
-      height: 30px;
+
+    &.rrss {
+      padding-top: 20px;
     }
   }
-  
-  div.footer-nav ul a {
-    font-weight: 400;
+
+  h5 {
+    font-family: 'Jaapokki Enchance';
+    font-size: 18px;
+    font-weight: bold;
+    color: #323333;
+    text-transform: uppercase;
+    padding-top: 25px;
+    border-top: solid 1px #323333;
   }
+
+  p {
+    font-family: 'Jaapokki Regular';
+    font-size: 12px;
+    font-weight: bold;
+    color: #323333;
+    text-transform: uppercase;
+    justify-content: flex-start;
+  }
+
+  a {
+    text-decoration: none;
+    color: #323333 ;
+  }
+
+  img.logo {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+div.footer-nav ul a {
+  font-weight: 400;
+}

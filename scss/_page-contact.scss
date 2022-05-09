@@ -1,53 +1,53 @@
-  /************************************************** Pagina 5 - Contacto **************************************************/
-  form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 50px 20px;
-    border: none;
-    margin: 0 auto;
-    width: 40%;
-  }
-  
-  input {
-    &.name {
-      width: 100%;
-      border: solid;
-      border-width: 0 0 2px 0;
-      padding: 10px 5px;
-    }
-  
-    &.phone, &.email {
-      width: 100%;
-      margin-top: 20px;
-      border: solid;
-      border-width: 0 0 2px 0;
-      padding: 10px 5px;
-    }
-  }
-  
-  select.form-select {
+/************************************************** Pagina 5 - Contacto **************************************************/
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
+  border: none;
+  margin: 0 auto;
+  width: 40%;
+}
+
+input {
+  &.name {
     width: 100%;
-    margin-top: 20px;
     border: solid;
     border-width: 0 0 2px 0;
-    padding: 10px 0;
+    padding: 10px 5px;
   }
-  
-  textarea.message {
+
+  &.phone, &.email {
     width: 100%;
     margin-top: 20px;
     border: solid;
     border-width: 0 0 2px 0;
     padding: 10px 5px;
-    margin-bottom: 15px;
   }
-  
-  fieldset {
-    border: none;
-  }
-  
-  h1.contact-title {
-    padding-top: 50px;
-    text-align: center;
-  }
+}
+
+select.form-select {
+  width: 100%;
+  margin-top: 20px;
+  border: solid;
+  border-width: 0 0 2px 0;
+  padding: 10px 0;
+}
+
+textarea.message {
+  width: 100%;
+  margin-top: 20px;
+  border: solid;
+  border-width: 0 0 2px 0;
+  padding: 10px 5px;
+  margin-bottom: 15px;
+}
+
+fieldset {
+  border: none;
+}
+
+h1.contact-title {
+  padding-top: 50px;
+  text-align: center;
+}
