@@ -9,11 +9,11 @@
 
 ## ⚡ Librerias Utilizadas
 
-[Bootstrap 5](https://getbootstrap.com/).
+[Bootstrap 5](https://getbootstrap.com/)
 
-[Lightbox2.js](https://lokeshdhakar.com/projects/lightbox2/).
+[Lightbox2.js](https://lokeshdhakar.com/projects/lightbox2/)
 
-[Aos.js (Animate on scroll)](https://michalsnik.github.io/aos/).
+[Aos.js (Animate on scroll)](https://michalsnik.github.io/aos/)
 
 [Font Awesome](https://fontawesome.com/)
 
