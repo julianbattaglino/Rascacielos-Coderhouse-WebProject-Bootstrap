@@ -1,7 +1,19 @@
-## Repositorio 2° del Proyecto Web Coderhouse - (Proyecto paralelo con Framework Bootstrap 5)
+## Proyecto Final Curso de Desarrollo Web - Coderhouse 
 
 ### Comision 31525 - Julian Battaglino
 
- Repositorio del proyecto final para el curso de "Desarrollo Web" Utilizando Framework CSS "Bootstrap 5"
+## HELLO WORLD!
 
- Website TOP 5 TALLEST SKYSCRAPERS, las 5 rascacielos mas altos del mundo. 
+ Repositorio del proyecto final para el curso de "Desarrollo Web".
+
+ Website TOP 5 TALLEST SKYSCRAPERS, los 5 rascacielos mas altos del mundo. 
+
+## ⚡ Librerias Utilizadas
+
+[Lightbox2.js](https://michalsnik.github.io/aos/).
+[Aos.js (Animate on scroll)](https://michalsnik.github.io/aos/).
+[Font Awesome](https://fontawesome.com/)
+
+
+
+
