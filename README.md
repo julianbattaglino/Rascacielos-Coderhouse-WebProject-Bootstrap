@@ -7,7 +7,7 @@
 
 ## ⚡ Librerias Utilizadas
 
-[Lightbox2.js](https://michalsnik.github.io/aos/).
+[Lightbox2.js](https://lokeshdhakar.com/projects/lightbox2/).
 
 [Aos.js (Animate on scroll)](https://michalsnik.github.io/aos/).
 
