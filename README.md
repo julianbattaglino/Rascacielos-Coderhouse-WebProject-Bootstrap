@@ -3,11 +3,13 @@
 
  Repositorio del proyecto final para el curso de "Desarrollo Web".
 
- Website TOP 5 TALLEST SKYSCRAPERS, los 5 rascacielos mas altos del mundo. 
+ Website TOP 5 TALLEST SKYSCRAPERS "Los 5 rascacielos mas altos del mundo." 
 
  [LIVE DEMO](https://julianbattaglino.github.io/Rascacielos-Coderhouse-WebProject-Bootstrap)
 
 ## ⚡ Librerias Utilizadas
+
+[Bootstrap 5](https://getbootstrap.com/).
 
 [Lightbox2.js](https://lokeshdhakar.com/projects/lightbox2/).
 
