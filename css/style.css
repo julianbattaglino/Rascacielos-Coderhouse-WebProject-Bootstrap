@@ -363,7 +363,7 @@ section.architect-1 {
   padding: 75px 75px 125px 75px; }
 
 section.architect-2 {
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   padding: 75px 75px 125px 75px; }
 
 section.architect-3 {
@@ -371,7 +371,7 @@ section.architect-3 {
   padding: 75px 75px 125px 75px; }
 
 section.architect-4 {
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   padding: 75px 75px 125px 75px; }
 
 section.architect-5 {
@@ -390,8 +390,8 @@ section.multimedia h1 {
 /************************************************** Pagina 4 - Multimedia **************************************************/
 .grid-multimedia {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  background-color: #F2F2F2;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  background-color: #f2f2f2;
   padding-bottom: 75px; }
 
 img.filter-img {
@@ -399,6 +399,18 @@ img.filter-img {
   img.filter-img:hover {
     transition: 0.4s;
     filter: grayscale(0%); }
+
+@media (max-width: 768px) {
+  .grid-multimedia {
+    grid-template-columns: 1fr 1fr; } }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .grid-multimedia {
+    grid-template-columns: 1fr 1fr 1fr; } }
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+  .grid-multimedia {
+    grid-template-columns: 1fr 1fr 1fr 1fr; } }
 
 /************************************************** Pagina 5 - Contacto **************************************************/
 form {
@@ -572,11 +584,9 @@ a#navbarDropdownMenuLink.nav-link.dropdown-toggle::after {
     font-size: 14px; }
   button.accordion-button {
     font-size: 18px; }
-  /* Page Multimedia */
-  /* Page Contacto */
   /* Footer */
   footer {
-    background-color: #F2F2F2;
+    background-color: #f2f2f2;
     padding: 75px 25px; }
   .footer-container {
     display: grid;
@@ -605,10 +615,6 @@ a#navbarDropdownMenuLink.nav-link.dropdown-toggle::after {
   section div.col-2-architects {
     padding-top: 75px;
     margin-left: 0px; }
-  /* Page Multimedia */
-  .grid-multimedia {
-    display: grid;
-    grid-template-columns: 1fr 1fr !important; }
   /* Footer */
   .footer-container {
     display: grid;
@@ -650,9 +656,6 @@ a#navbarDropdownMenuLink.nav-link.dropdown-toggle::after {
     padding: 50px 25px; }
   .section-background-burj, .section-background-abraj, .section-background-merdeka, .section-background-fc, .section-background-shangai {
     height: 40vh; }
-  /* Page Multimedia */
-  .grid-multimedia {
-    grid-template-columns: 1fr 1fr 1fr; }
   /* Page Architects */
   p.architects-text {
     padding-bottom: 40px; }

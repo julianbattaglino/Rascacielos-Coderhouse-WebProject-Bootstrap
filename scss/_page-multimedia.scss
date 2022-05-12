@@ -1,10 +1,11 @@
   /************************************************** Pagina 4 - Multimedia **************************************************/
   .grid-multimedia {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    background-color: #F2F2F2;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background-color: $section-light-grey;
     padding-bottom: 75px;
   }
+
 
   img.filter-img {
     filter: grayscale(80%);
@@ -13,3 +14,23 @@
     filter: grayscale(0%);
   }
 }
+
+@media (max-width: 768px) {
+  .grid-multimedia {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .grid-multimedia {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+  .grid-multimedia {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+

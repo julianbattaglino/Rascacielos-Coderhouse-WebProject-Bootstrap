@@ -4,7 +4,7 @@ h2.architect-name {
   font-family: 'Jaapokki Enchance';
   font-size: 24px;
   font-weight: 700;
-  background-color: #FFFFFF;
+  background-color: $white-color;
   border-radius: 0 0 10px 10px;
   margin-top: -5px;
   padding-top: 10px;
@@ -39,27 +39,27 @@ p.buildings {
 
 section {
   &.architect-1 {
-    background-color: #B4BDCB;
+    background-color: $section-dark-grey;
     padding: 75px 75px 125px 75px;
   }
 
   &.architect-2 {
-    background-color: #F2F2F2;
+    background-color: $section-light-grey;
     padding: 75px 75px 125px 75px;
   }
 
   &.architect-3 {
-    background-color: #B4BDCB;
+    background-color: $section-dark-grey;
     padding: 75px 75px 125px 75px;
   }
 
   &.architect-4 {
-    background-color: #F2F2F2;
+    background-color: $section-light-grey;
     padding: 75px 75px 125px 75px;
   }
 
   &.architect-5 {
-    background-color: #B4BDCB;
+    background-color: $section-dark-grey;
     padding: 75px 75px 125px 75px;
   }
 

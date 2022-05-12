@@ -28,12 +28,12 @@ ul.navigation-list {
 a li {
   font-size: 12px;
   font-family: 'Jaapokki Regular';
-  color: #323333;
+  color: $main-black;
   text-transform: uppercase;
 
   &:hover {
     font-family: 'Jaapokki Regular';
-    color: #6A6A6A;
+    color: $main-grey;
   }
 }
 
@@ -77,7 +77,7 @@ a.dropdown-item {
 
 .dropdown-item {
   &:focus, &:hover {
-    color: #323333;
+    color: $main-black;
     background-color: #e9ecef;
   }
 
