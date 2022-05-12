@@ -390,7 +390,7 @@ section.multimedia h1 {
 /************************************************** Pagina 4 - Multimedia **************************************************/
 .grid-multimedia {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   background-color: #f2f2f2;
   padding-bottom: 75px; }
 
@@ -407,10 +407,6 @@ img.filter-img {
 @media (min-width: 768px) and (max-width: 1024px) {
   .grid-multimedia {
     grid-template-columns: 1fr 1fr 1fr; } }
-
-@media (min-width: 1024px) and (max-width: 1200px) {
-  .grid-multimedia {
-    grid-template-columns: 1fr 1fr 1fr 1fr; } }
 
 /************************************************** Pagina 5 - Contacto **************************************************/
 form {
