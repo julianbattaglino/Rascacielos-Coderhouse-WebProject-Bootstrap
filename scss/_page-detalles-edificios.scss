@@ -129,3 +129,30 @@ td img.flag {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+@media (max-width: 1200px) {
+/* Pages Detalles Edificios */
+  section {
+    &.section-presentation {
+      height: 100%;
+      padding: 75px 25px;
+    }
+
+    &.intro {
+      height: 75vh;
+      padding: 0 25px;
+    }
+  }
+
+  main.table-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 25px;
+  }
+
+  .section-background-burj, .section-background-abraj, .section-background-merdeka, .section-background-fc, .section-background-shangai {
+    height: 40vh;
+  }
+  
+}

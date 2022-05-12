@@ -2,22 +2,22 @@
 
 h2.architect-name {
   font-family: 'Jaapokki Enchance';
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
   background-color: $white-color;
-  border-radius: 0 0 10px 10px;
-  margin-top: -5px;
-  padding-top: 10px;
+  border-radius: 0 0 0.625rem 0.625rem;
+  margin-top: -0.313rem;
+  padding-top: 0.625rem;
 }
 
 img.architects-img {
   width: 100%;
-  border-radius: 10px 10px 0 0;
+  border-radius: 0.625rem 0.625rem 0 0;
 }
 
 div {
   &.accordion {
-    border-radius: 10px 10px 0 0;
+    border-radius: 0.625rem 0.625rem 0 0;
   }
 
   &.accordion-body {
@@ -26,10 +26,10 @@ div {
 }
 
 button.accordion-button {
-  font-size: 28px;
+  font-size: 1.75rem;
   font-family: 'Jaapokki Enchance';
   font-weight: 700;
-  word-spacing: 20px;
+  word-spacing: 1.25rem;
   color: #323333;
 }
 
@@ -70,9 +70,81 @@ section {
   }
 }
 
-  @media (max-width: 767.98px){
-    div.accordion-body {
-    font-size: 12px;
+/* Bootstrap Accordion Arrows Custom Icons */
+.accordion-button {
+  &:not(.collapsed)::after {
+    background-image: url(../assets/img/back-to-top-down.png);
+    transform: rotate(-180deg);
+  }
+
+  &::after {
+    background-image: url(../assets/img/back-to-top-down.png);
   }
 }
+
+
+/************************************** Max-width: 767px Mobile Media Querie ***************************************/
+@media (max-width: 767px){
+  section {
+    &.architect-1 {
+      background-color: $section-dark-grey;
+      padding: 75px 25px;
+    }
+
+    &.architect-2 {
+      background-color: $section-light-grey;
+      padding: 75px 25px;
+    }
+
+    &.architect-3 {
+      background-color: $section-dark-grey;
+      padding: 75px 25px;
+    }
+
+    &.architect-4 {
+      background-color: $section-light-grey;
+      padding: 75px 25px;
+    }
+
+    &.architect-5 {
+      background-color: $section-dark-grey;
+      padding: 75px 25px;
+    }
+  }
+
+  h2.architect-name {
+    font-size: 0.875rem;
+  }
+
+  button.accordion-button {
+    font-size: 1.125rem;
+  }
+
+  div.accordion-body {
+    font-size: 0.75rem;
+  }
+
+}
+
+@media (max-width: 1024px) {
+  section div {
+    &.col-1-architects {}
+
+    &.col-2-architects {
+      padding-top: 75px;
+      margin-left: 0px;
+    }
+  }
+  
+}
+
+@media (max-width: 1200px) {
+/* Page Architects */
+  p.architects-text {
+    padding-bottom: 40px;
+  }
+  
+}
+
+
 

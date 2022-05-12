@@ -26,7 +26,7 @@ ul.navigation-list {
 }
 
 a li {
-  font-size: 12px;
+  font-size: 0.75rem;
   font-family: 'Jaapokki Regular';
   color: $main-black;
   text-transform: uppercase;
@@ -38,9 +38,9 @@ a li {
 }
 
 nav img.logo {
-  width: 30px;
-  height: 30px;
-  margin-right: 50px;
+  width: 1.875rem;
+  height: 1.875rem;
+  margin-right: 3.125rem;
 }
 
 /*Bootstrap Mobile Menu*/
@@ -87,3 +87,35 @@ a.dropdown-item {
     background-color: #e9ecef;
   }
 }
+
+/* Dropdown Sub-Menu Arrow Alineación Vertical */
+a#navbarDropdownMenuLink.nav-link.dropdown-toggle::after {
+  vertical-align: 0.15em !important;
+  }
+  
+/* Navbar Padding Right & Left */
+.navbar > {
+  .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    padding: 0 4.688rem;
+  }
+}
+
+
+@media (max-width: 1024px) {
+  /* Boostrap Mobile Menu */
+  a.dropdown-item {
+    padding: 0.25rem 0;
+  }
+  
+}
+
+@media (max-width: 1200px) {
+/* Navbar Padding Right & Left */
+  .navbar > {
+    .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+      padding: 0 1.563rem;
+    }
+  }
+  
+}
+

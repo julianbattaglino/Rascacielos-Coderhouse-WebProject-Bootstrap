@@ -2,52 +2,52 @@
 
 footer {
   background-color: #F2F2F2;
-  padding: 75px;
+  padding: 4.688rem;
 }
 
 .footer-container {
   display: grid;
   grid-template-columns: 2fr 2fr 1fr;
-  padding-bottom: 25px;
+  padding-bottom: 1.563rem;
 }
 
 p.footer-text {
   font-family: 'Jaapokki Regular';
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 500;
   color: #323333;
   display: flex;
   justify-content: center;
-  padding-right: 100px;
-  padding-top: 10px;
+  padding-right: 6.25rem;
+  padding-top: 0.625rem;
   text-transform: none;
 }
 
 footer {
   h3 {
     font-family: 'Jaapokki Regular';
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 700;
     color: #323333;
 
     &.rrss {
-      padding-top: 20px;
+      padding-top: 1.25rem;
     }
   }
 
   h5 {
     font-family: 'Jaapokki Enchance';
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: bold;
     color: #323333;
     text-transform: uppercase;
-    padding: 25px 0 0 0;
+    padding: 1.563rem 0 0 0;
     border-top: solid 1px #323333;
   }
 
   p {
     font-family: 'Jaapokki Regular';
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: bold;
     color: #323333;
     text-transform: uppercase;
@@ -60,11 +60,65 @@ footer {
   }
 
   img.logo {
-    width: 30px;
-    height: 30px;
+    width: 1.875rem;
+    height: 1.875rem;
   }
 }
 
 div.footer-nav ul a {
   font-weight: 400;
 }
+
+/************************************** Max-width: 767px Mobile Media Querie ***************************************/
+@media (max-width: 767px) {
+  footer {
+    background-color: $section-light-grey;
+    padding: 4.688rem 1.563rem;
+  }
+
+  .footer-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .footer-col2, .footer-col3 {
+    padding-top: 1.25rem;
+  }
+  
+}
+
+@media (max-width: 1024px) {
+  /* Footer */
+  .footer-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .footer-col2, .footer-col3 {
+    padding-top: 1.25rem;
+  }
+  
+}
+
+@media (max-width: 1200px) {
+/* Footer */
+  footer {
+    padding: 4.688rem 1.563rem;
+
+    h3 {
+      font-size: 0.875rem;
+    }
+  }
+
+  p.footer-text, div.footer-nav {
+    padding-bottom: 1.25rem;
+  }
+  
+}
+
+
+

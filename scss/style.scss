@@ -10,10 +10,10 @@
   @import "page-contact";
   
   /*  Agregado de comportamiento Scroll Suave  */
-  
   html {
+    font-size: 16px;
     scroll-behavior: smooth;
-    scroll-padding-top: 20px;
+    scroll-padding-top: 1.25rem;
   }
   
   /************************************************** Reset Estilos Globales **************************************************/
@@ -52,20 +52,7 @@
       transform: translate(0, 0px);
     }
   }
-  
-  /* Bootstrap Accordion Arrows Custom Icons */
-  
-  .accordion-button {
-    &:not(.collapsed)::after {
-      background-image: url(../assets/img/back-to-top-down.png);
-      transform: rotate(-180deg);
-    }
-  
-    &::after {
-      background-image: url(../assets/img/back-to-top-down.png);
-    }
-  }
-  
+    
   /************************************************** Estilos Globales **************************************************/
   
   h1 {
@@ -78,7 +65,7 @@
     animation-name: left-in;
     animation-duration: 1s;
     margin: 0;
-    padding-bottom: 20px;
+    padding-bottom: 1.25rem;
   }
   
   h2 {
@@ -93,7 +80,7 @@
   p {
     font-family: 'Jaapokki Regular';
     font-weight: 500;
-    font-size: 14px;
+    font-size: 0.875rem;
     color: $main-black;
   }
   
@@ -119,174 +106,25 @@
     }
   }
     
-  /* Dropdown Sub-Menu Arrow Alineación Vertical */
-  
-  a#navbarDropdownMenuLink.nav-link.dropdown-toggle::after {
-    vertical-align: 0.15em !important;
-  }
-  
-  /* Navbar Padding Right & Left */
-  
-  .navbar > {
-    .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-      padding: 0 75px;
-    }
-  }
 
 
-  /************************************************** MEDIA QUERIES  **************************************************/
+/************************************************** MEDIA QUERIES  **************************************************/
 
-/************************************************************************************************************************
-************************************** Max-width: 767px Mobile Media Querie ***************************************
-************************************************************************************************************************/
+/*** Max-width: 767px Mobile Media Querie ***/
 
+/* Estilos Globales */
 @media (max-width: 767px) {
-  /* Estilos Globales */
-
   img {
     width: 100%;
   }
-
-  /* Pagina Home */
-
-  /* Secciones Edificios Home */
-
-  div.grid-container {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-
-  .section-1, .section-2, .section-3, .section-4, .section-5 {
-    padding: 75px 25px;
-  }
-
-  h2.building-title, p.section-text {
-    padding-bottom: 30px;
-  }
-
-  img.anchor-arrow {
-    padding-top: 30px;
-    width: 30px;
-  }
-
-  /* Page Architects */
-
-  section {
-    &.architect-1 {
-      background-color: $section-dark-grey;
-      padding: 75px 25px;
-    }
-
-    &.architect-2 {
-      background-color: $section-light-grey;
-      padding: 75px 25px;
-    }
-
-    &.architect-3 {
-      background-color: $section-dark-grey;
-      padding: 75px 25px;
-    }
-
-    &.architect-4 {
-      background-color: $section-light-grey;
-      padding: 75px 25px;
-    }
-
-    &.architect-5 {
-      background-color: $section-dark-grey;
-      padding: 75px 25px;
-    }
-  }
-
-  h2.architect-name {
-    font-size: 14px;
-  }
-
-  button.accordion-button {
-    font-size: 18px;
-  }
-
-  /* Footer */
-
-  footer {
-    background-color: $section-light-grey;
-    padding: 75px 25px;
-  }
-
-  .footer-container {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-
-  .footer-col2, .footer-col3 {
-    padding-top: 20px;
-  }
 }
 
-/************************************************************************************************************************
-************************************** Max-width: 1024px Tablet-Ipad Media Querie ***************************************
-************************************************************************************************************************/
-
-/* Pagina Home */
-
-@media (max-width: 1024px) {
-  /* Secciones Edificios Home */
-  /* Grid - 1 Column Secciones Edificios Home Tablet */
-
-  div.grid-container {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-
-  p.section-text {
-    padding-top: 30px;
-  }
-
-  section div.col-1 {
-    margin-right: 0;
-  }
-
-  /* Boostrap Mobile Menu */
-
-  a.dropdown-item {
-    padding: 0.25rem 0;
-  }
-
-  /* Page Architects */
-
-  section div {
-    &.col-1-architects {}
-
-    &.col-2-architects {
-      padding-top: 75px;
-      margin-left: 0px;
-    }
-  }
-
-  /* Footer */
-
-  .footer-container {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-
-  img {
-    width: 100%;
-  }
-
-  .footer-col2, .footer-col3 {
-    padding-top: 20px;
-  }
-}
-
-/************************************************************************************************************************
-************************************** Max-width: 1200px Ipad Pro Media Querie ***************************************
-************************************************************************************************************************/
+/*** Max-width: 1200px Ipad Pro Media Querie ***/
 @media (max-width: 1200px) {
   /* Estilos Globales */
 
   h1 {
-    font-size: 1.5rem;
+    font-size: 2.4rem;
   }
 
   h2 {
@@ -298,72 +136,10 @@
   }
 
   img.anchor-arrow {
-    padding-top: 30px;
-    width: 40px;
+    padding-top: 1.875rem;
+    width: 2.5rem;
   }
 
-  /* Navbar Padding Right & Left */
-
-  .navbar > {
-    .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-      padding: 0 25px;
-    }
-  }
-
-  /* Page Home */
-
-  /* Pages Detalles Edificios */
-
-  section {
-    &.section-presentation {
-      height: 100%;
-      padding: 75px 25px;
-    }
-
-    &.intro {
-      height: 75vh;
-      padding: 0 25px;
-    }
-  }
-
-  main.table-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 50px 25px;
-  }
-
-
-  .section-background-burj, .section-background-abraj, .section-background-merdeka, .section-background-fc, .section-background-shangai {
-    height: 40vh;
-  }
-
-
-  /* Page Architects */
-
-  p.architects-text {
-    padding-bottom: 40px;
-  }
-
-  /* Page Contacto */
-
-  form {
-    width: 60%;
-  }
-
-  /* Footer */
-
-  footer {
-    padding: 75px 25px;
-
-    h3 {
-      font-size: 14px;
-    }
-  }
-
-  p.footer-text, div.footer-nav {
-    padding-bottom: 20px;
-  }
 }
 
   

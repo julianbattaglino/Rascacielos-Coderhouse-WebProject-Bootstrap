@@ -75,3 +75,44 @@
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
   }
+
+/************************************** Max-width: 767px Mobile Media Querie ***************************************/
+@media (max-width: 767px) {
+  div.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .section-1, .section-2, .section-3, .section-4, .section-5 {
+    padding: 75px 25px;
+  }
+
+  h2.building-title, p.section-text {
+    padding-bottom: 30px;
+  }
+
+  img.anchor-arrow {
+    padding-top: 30px;
+    width: 30px;
+  }
+
+  }
+
+  @media (max-width: 1024px) {
+  /* Secciones Edificios Home */
+
+  /* Grid - 1 Column Secciones Edificios Home Tablet */
+  div.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  p.section-text {
+    padding-top: 30px;
+  }
+
+  section div.col-1 {
+    margin-right: 0;
+  }
+
+  }
