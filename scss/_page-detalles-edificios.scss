@@ -57,11 +57,11 @@ table {
 
 th {
   border: 1px solid #a2a9b1;
-  text-align: center;
+  text-align: $text-center;
 }
 
 td {
-  text-align: center;
+  text-align: $text-center;
   border: 1px solid #a2a9b1;
 }
 
@@ -71,7 +71,7 @@ tr {
 
   &.tr-heading {
     background-color: #eaecf0;
-    text-align: center;
+    text-align: $text-center;
   }
 
   &.tr-current {

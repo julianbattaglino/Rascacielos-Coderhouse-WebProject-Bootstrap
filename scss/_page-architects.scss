@@ -1,9 +1,10 @@
+
 /************************************************** Pagina 3 - Architects **************************************************/
 
 h2.architect-name {
   font-family: 'Jaapokki Enchance';
   font-size: 1.5rem;
-  font-weight: 700;
+  font-weight: $text-bold;
   background-color: $white-color;
   border-radius: 0 0 0.625rem 0.625rem;
   margin-top: -0.313rem;
@@ -28,7 +29,7 @@ div {
 button.accordion-button {
   font-size: 1.75rem;
   font-family: 'Jaapokki Enchance';
-  font-weight: 700;
+  font-weight: $text-bold;
   word-spacing: 1.25rem;
   color: #323333;
 }
@@ -65,7 +66,7 @@ section {
 
   &.multimedia h1 {
     padding: 50px 75px;
-    text-align: center;
+    text-align: $text-center;
     background-color: #F2F2F2;
   }
 }
