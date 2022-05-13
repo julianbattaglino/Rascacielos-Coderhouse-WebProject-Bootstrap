@@ -1,0 +1,132 @@
+  /*  Agregado de comportamiento Scroll Suave  */
+  html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+    scroll-padding-top: 1.25rem;
+  }
+  
+  /************************************************** Reset Estilos Globales **************************************************/
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /************************************************ Animations & Transformations ************************************************/
+  
+  /* Animación h1 left to rigth + Fade in Opacity */
+  @keyframes left-in {
+    0% {
+      top: -10%;
+      opacity: 0;
+    }
+  
+    100% {
+      top: 0;
+      opacity: 1;
+    }
+  }
+  
+  /* Animación flotante Flechas */
+  @keyframes floating {
+    0% {
+      transform: translate(0, 0px);
+    }
+  
+    50% {
+      transform: translate(0, 10px);
+    }
+  
+    100% {
+      transform: translate(0, 0px);
+    }
+  }
+    
+  /************************************************** Estilos Globales **************************************************/
+  
+  h1 {
+    font-family: 'Jaapokki Subtract';
+    font-weight: bold;
+    font-size: 3rem;
+    color: $main-black;
+    text-transform: uppercase;
+    position: relative;
+    animation-name: left-in;
+    animation-duration: 1s;
+    margin: 0;
+    padding-bottom: 1.25rem;
+  }
+  
+  h2 {
+    font-family: 'Jaapokki Regular';
+    font-weight: bold;
+    font-size: 2rem;
+    color: $main-black;
+    text-transform: uppercase;
+    text-align: $text-center;
+  }
+  
+  p {
+    font-family: 'Jaapokki Regular';
+    font-weight: 500;
+    font-size: 0.875rem;
+    color: $main-black;
+  }
+  
+  
+  a {
+    font-weight: $text-bold;
+    color: $main-black;
+    &:hover {
+      color: $main-grey;
+    }
+  }
+    
+  ul {
+    list-style-type: none;
+  }
+  
+  img {
+    max-width: 100%;
+  
+    &.slider-imgs {
+      width: 75%;
+      margin: auto;
+    }
+  }
+    
+
+
+/************************************************** MEDIA QUERIES  **************************************************/
+
+/*** Max-width: 767px Mobile Media Querie ***/
+
+/* Estilos Globales */
+@media (max-width: 767px) {
+  img {
+    width: 100%;
+  }
+}
+
+/*** Max-width: 1200px Ipad Pro Media Querie ***/
+@media (max-width: 1200px) {
+  /* Estilos Globales */
+
+  h1 {
+    font-size: 2.4rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  p.home-intro {
+    padding: 0;
+  }
+
+  img.anchor-arrow {
+    padding-top: 1.875rem;
+    width: 2.5rem;
+  }
+
+}

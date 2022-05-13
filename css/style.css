@@ -21,6 +21,98 @@
   src: url("../assets/fonts/Jaapokki/Subtract/jaapokkisubtract-regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Jaapokki/Subtract/Jaapokkisubtract-Regular.otf") format("otf"), url("../assets/fonts/Jaapokki/Subtract/jaapokkisubtract-regular.woff") format("woff"), url("../assets/fonts/Jaapokki/Subtract/jaapokkisubtract-regular.ttf") format("truetype"), url("../assets/fonts/Jaapokki/Subtract/jaapokkisubtract-regular.svg#svgFontName") format("svg");
   /* Legacy iOS */ }
 
+/*  Agregado de comportamiento Scroll Suave  */
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+  scroll-padding-top: 1.25rem; }
+
+/************************************************** Reset Estilos Globales **************************************************/
+* {
+  margin: 0;
+  padding: 0; }
+
+/************************************************ Animations & Transformations ************************************************/
+/* Animación h1 left to rigth + Fade in Opacity */
+@keyframes left-in {
+  0% {
+    top: -10%;
+    opacity: 0; }
+  100% {
+    top: 0;
+    opacity: 1; } }
+
+/* Animación flotante Flechas */
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px); }
+  50% {
+    transform: translate(0, 10px); }
+  100% {
+    transform: translate(0, 0px); } }
+
+/************************************************** Estilos Globales **************************************************/
+h1 {
+  font-family: 'Jaapokki Subtract';
+  font-weight: bold;
+  font-size: 3rem;
+  color: #323333;
+  text-transform: uppercase;
+  position: relative;
+  animation-name: left-in;
+  animation-duration: 1s;
+  margin: 0;
+  padding-bottom: 1.25rem; }
+
+h2 {
+  font-family: 'Jaapokki Regular';
+  font-weight: bold;
+  font-size: 2rem;
+  color: #323333;
+  text-transform: uppercase;
+  text-align: center; }
+
+p {
+  font-family: 'Jaapokki Regular';
+  font-weight: 500;
+  font-size: 0.875rem;
+  color: #323333; }
+
+a {
+  font-weight: Bold;
+  color: #323333; }
+  a:hover {
+    color: #6A6A6A; }
+
+ul {
+  list-style-type: none; }
+
+img {
+  max-width: 100%; }
+  img.slider-imgs {
+    width: 75%;
+    margin: auto; }
+
+/************************************************** MEDIA QUERIES  **************************************************/
+/*** Max-width: 767px Mobile Media Querie ***/
+/* Estilos Globales */
+@media (max-width: 767px) {
+  img {
+    width: 100%; } }
+
+/*** Max-width: 1200px Ipad Pro Media Querie ***/
+@media (max-width: 1200px) {
+  /* Estilos Globales */
+  h1 {
+    font-size: 2.4rem; }
+  h2 {
+    font-size: 1.2rem; }
+  p.home-intro {
+    padding: 0; }
+  img.anchor-arrow {
+    padding-top: 1.875rem;
+    width: 2.5rem; } }
+
 /*@extend para Buttons*/
 .hover, .btn--hover:hover {
   box-shadow: inset 5px 5px 10px #99a1ad, inset -5px -5px 10px #cfd9e9; }
@@ -116,93 +208,6 @@ a#navbarDropdownMenuLink.nav-link.dropdown-toggle::after {
   /* Navbar Padding Right & Left */
   .navbar > .container-fluid, .navbar > .container-lg, .navbar > .container-md, .navbar > .container-sm, .navbar > .container-xl, .navbar > .container-xxl {
     padding: 0 1.563rem; } }
-
-/************************************************** Footer  **************************************************/
-footer {
-  background-color: #F2F2F2;
-  padding: 4.688rem; }
-
-.footer-container {
-  display: grid;
-  grid-template-columns: 2fr 2fr 1fr;
-  padding-bottom: 1.563rem; }
-
-p.footer-text {
-  font-family: 'Jaapokki Regular';
-  font-size: 0.875rem;
-  font-weight: 500;
-  color: #323333;
-  display: flex;
-  justify-content: center;
-  padding-right: 6.25rem;
-  padding-top: 0.625rem;
-  text-transform: none; }
-
-footer h3 {
-  font-family: 'Jaapokki Regular';
-  font-size: 1.125rem;
-  font-weight: 700;
-  color: #323333; }
-  footer h3.rrss {
-    padding-top: 1.25rem; }
-
-footer h5 {
-  font-family: 'Jaapokki Enchance';
-  font-size: 1.125rem;
-  font-weight: bold;
-  color: #323333;
-  text-transform: uppercase;
-  padding: 1.563rem 0 0 0;
-  border-top: solid 1px #323333; }
-
-footer p {
-  font-family: 'Jaapokki Regular';
-  font-size: 0.75rem;
-  font-weight: bold;
-  color: #323333;
-  text-transform: uppercase;
-  justify-content: flex-start; }
-
-footer a {
-  text-decoration: none;
-  color: #323333; }
-
-footer img.logo {
-  width: 1.875rem;
-  height: 1.875rem; }
-
-div.footer-nav ul a {
-  font-weight: 400; }
-
-/************************************** Max-width: 767px Mobile Media Querie ***************************************/
-@media (max-width: 767px) {
-  footer {
-    background-color: #f2f2f2;
-    padding: 4.688rem 1.563rem; }
-  .footer-container {
-    display: grid;
-    grid-template-columns: 1fr; }
-  .footer-col2, .footer-col3 {
-    padding-top: 1.25rem; } }
-
-@media (max-width: 1024px) {
-  /* Footer */
-  .footer-container {
-    display: grid;
-    grid-template-columns: 1fr; }
-  img {
-    width: 100%; }
-  .footer-col2, .footer-col3 {
-    padding-top: 1.25rem; } }
-
-@media (max-width: 1200px) {
-  /* Footer */
-  footer {
-    padding: 4.688rem 1.563rem; }
-    footer h3 {
-      font-size: 0.875rem; }
-  p.footer-text, div.footer-nav {
-    padding-bottom: 1.25rem; } }
 
 /************************************************** Pagina Home **************************************************/
 /* Secciones Edificios Home */
@@ -584,94 +589,89 @@ h1.contact-title {
   form {
     width: 60%; } }
 
-/*  Agregado de comportamiento Scroll Suave  */
-html {
-  font-size: 16px;
-  scroll-behavior: smooth;
-  scroll-padding-top: 1.25rem; }
+/************************************************** Footer  **************************************************/
+footer {
+  background-color: #F2F2F2;
+  padding: 4.688rem; }
 
-/************************************************** Reset Estilos Globales **************************************************/
-* {
-  margin: 0;
-  padding: 0; }
+.footer-container {
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr;
+  padding-bottom: 1.563rem; }
 
-/************************************************ Animations & Transformations ************************************************/
-/* Animación h1 left to rigth + Fade in Opacity */
-@keyframes left-in {
-  0% {
-    top: -10%;
-    opacity: 0; }
-  100% {
-    top: 0;
-    opacity: 1; } }
-
-/* Animación flotante Flechas */
-@keyframes floating {
-  0% {
-    transform: translate(0, 0px); }
-  50% {
-    transform: translate(0, 10px); }
-  100% {
-    transform: translate(0, 0px); } }
-
-/************************************************** Estilos Globales **************************************************/
-h1 {
-  font-family: 'Jaapokki Subtract';
-  font-weight: bold;
-  font-size: 3rem;
-  color: #323333;
-  text-transform: uppercase;
-  position: relative;
-  animation-name: left-in;
-  animation-duration: 1s;
-  margin: 0;
-  padding-bottom: 1.25rem; }
-
-h2 {
+p.footer-text {
   font-family: 'Jaapokki Regular';
-  font-weight: bold;
-  font-size: 2rem;
-  color: #323333;
-  text-transform: uppercase;
-  text-align: center; }
-
-p {
-  font-family: 'Jaapokki Regular';
-  font-weight: 500;
   font-size: 0.875rem;
+  font-weight: 500;
+  color: #323333;
+  display: flex;
+  justify-content: center;
+  padding-right: 6.25rem;
+  padding-top: 0.625rem;
+  text-transform: none; }
+
+footer h3 {
+  font-family: 'Jaapokki Regular';
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: #323333; }
+  footer h3.rrss {
+    padding-top: 1.25rem; }
+
+footer h5 {
+  font-family: 'Jaapokki Enchance';
+  font-size: 1.125rem;
+  font-weight: bold;
+  color: #323333;
+  text-transform: uppercase;
+  padding: 1.563rem 0 0 0;
+  border-top: solid 1px #323333; }
+
+footer p {
+  font-family: 'Jaapokki Regular';
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: #323333;
+  text-transform: uppercase;
+  justify-content: flex-start; }
+
+footer a {
+  text-decoration: none;
   color: #323333; }
 
-a {
-  font-weight: Bold;
-  color: #323333; }
-  a:hover {
-    color: #6A6A6A; }
+footer img.logo {
+  width: 1.875rem;
+  height: 1.875rem; }
 
-ul {
-  list-style-type: none; }
+div.footer-nav ul a {
+  font-weight: 400; }
 
-img {
-  max-width: 100%; }
-  img.slider-imgs {
-    width: 75%;
-    margin: auto; }
-
-/************************************************** MEDIA QUERIES  **************************************************/
-/*** Max-width: 767px Mobile Media Querie ***/
-/* Estilos Globales */
+/************************************** Max-width: 767px Mobile Media Querie ***************************************/
 @media (max-width: 767px) {
-  img {
-    width: 100%; } }
+  footer {
+    background-color: #f2f2f2;
+    padding: 4.688rem 1.563rem; }
+  .footer-container {
+    display: grid;
+    grid-template-columns: 1fr; }
+  .footer-col2, .footer-col3 {
+    padding-top: 1.25rem; } }
 
-/*** Max-width: 1200px Ipad Pro Media Querie ***/
+@media (max-width: 1024px) {
+  /* Footer */
+  .footer-container {
+    display: grid;
+    grid-template-columns: 1fr; }
+  img {
+    width: 100%; }
+  .footer-col2, .footer-col3 {
+    padding-top: 1.25rem; } }
+
 @media (max-width: 1200px) {
-  /* Estilos Globales */
-  h1 {
-    font-size: 2.4rem; }
-  h2 {
-    font-size: 1.2rem; }
-  p.home-intro {
-    padding: 0; }
-  img.anchor-arrow {
-    padding-top: 1.875rem;
-    width: 2.5rem; } }
+  /* Footer */
+  footer {
+    padding: 4.688rem 1.563rem; }
+    footer h3 {
+      font-size: 0.875rem; }
+  p.footer-text, div.footer-nav {
+    padding-bottom: 1.25rem; } }
