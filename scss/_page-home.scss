@@ -8,46 +8,46 @@
     @include flex-center-column;
     height: 100vh;
     background-color: #F2F2F2;
-    padding: 0 75px;
+    padding: 0 4.6875rem;
     text-align: $text-center;
   }
   
   p.home-intro {
-    padding: 0 200px;
+    padding: 0 12.5rem;
   }
   
   .section-1 {
     height: 100%;
     background-color: $section-dark-grey;
-    padding: 75px;
+    padding: 4.6875rem;
   }
   
   .section-2 {
     height: 100%;
     background-color: $section-light-grey;
-    padding: 75px;
+    padding: 4.6875rem;
   }
   
   .section-3 {
     height: 100%;
     background-color: $section-dark-grey;
-    padding: 75px;
+    padding: 4.6875rem;
   }
   
   .section-4 {
     height: 100%;
     background-color: $section-light-grey;
-    padding: 75px;
+    padding: 4.6875rem;
   }
   
   .section-5 {
     height: 100%;
     background-color: $section-dark-grey;
-    padding: 75px;
+    padding: 4.6875rem;
   }
   
   h2.building-title {
-    padding-bottom: 75px;
+    padding-bottom: 4.6875rem;
   }
   
   /* Display Grid - 2 Columnas Secciones */
@@ -64,11 +64,11 @@
   }
   
   p.section-text {
-    padding-bottom: 30px;
+    padding-bottom: 1.875rem;
   }
   
   img.anchor-arrow {
-    padding-top: 30px;
+    padding-top: 1.875rem;
     width: 40px;
     animation-name: floating;
     animation-duration: 2s;
@@ -84,16 +84,16 @@
   }
 
   .section-1, .section-2, .section-3, .section-4, .section-5 {
-    padding: 75px 25px;
+    padding: 4.6875rem 1.5625rem;
   }
 
   h2.building-title, p.section-text {
-    padding-bottom: 30px;
+    padding-bottom: 1.875rem;
   }
 
   img.anchor-arrow {
-    padding-top: 30px;
-    width: 30px;
+    padding-top: 1.875rem;
+    width: 1.875rem;
   }
 
   }
@@ -108,7 +108,7 @@
   }
 
   p.section-text {
-    padding-top: 30px;
+    padding-top: 1.875rem;
   }
 
   section div.col-1 {

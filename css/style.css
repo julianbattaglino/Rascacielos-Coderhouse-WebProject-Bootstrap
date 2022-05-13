@@ -29,8 +29,8 @@ button.btn-black, .btn--hover {
   font-family: 'Jaapokki Regular';
   background-color: #B4BDCB;
   color: #323333;
-  padding: 5px 25px;
-  border-radius: 5px;
+  padding: 0.3125rem 1.5625rem;
+  border-radius: 0.3125rem;
   cursor: pointer;
   box-shadow: 5px 5px 0px #a0a8b5, -5px -5px 0px #c8d2e1;
   border: none; }
@@ -213,39 +213,39 @@ section.intro {
   flex-direction: column;
   height: 100vh;
   background-color: #F2F2F2;
-  padding: 0 75px;
+  padding: 0 4.6875rem;
   text-align: center; }
 
 p.home-intro {
-  padding: 0 200px; }
+  padding: 0 12.5rem; }
 
 .section-1 {
   height: 100%;
   background-color: #B4BDCB;
-  padding: 75px; }
+  padding: 4.6875rem; }
 
 .section-2 {
   height: 100%;
   background-color: #f2f2f2;
-  padding: 75px; }
+  padding: 4.6875rem; }
 
 .section-3 {
   height: 100%;
   background-color: #B4BDCB;
-  padding: 75px; }
+  padding: 4.6875rem; }
 
 .section-4 {
   height: 100%;
   background-color: #f2f2f2;
-  padding: 75px; }
+  padding: 4.6875rem; }
 
 .section-5 {
   height: 100%;
   background-color: #B4BDCB;
-  padding: 75px; }
+  padding: 4.6875rem; }
 
 h2.building-title {
-  padding-bottom: 75px; }
+  padding-bottom: 4.6875rem; }
 
 /* Display Grid - 2 Columnas Secciones */
 section img.section-img {
@@ -259,10 +259,10 @@ section div.column-2 {
   flex-direction: column; }
 
 p.section-text {
-  padding-bottom: 30px; }
+  padding-bottom: 1.875rem; }
 
 img.anchor-arrow {
-  padding-top: 30px;
+  padding-top: 1.875rem;
   width: 40px;
   animation-name: floating;
   animation-duration: 2s;
@@ -275,12 +275,12 @@ img.anchor-arrow {
     display: grid;
     grid-template-columns: 1fr; }
   .section-1, .section-2, .section-3, .section-4, .section-5 {
-    padding: 75px 25px; }
+    padding: 4.6875rem 1.5625rem; }
   h2.building-title, p.section-text {
-    padding-bottom: 30px; }
+    padding-bottom: 1.875rem; }
   img.anchor-arrow {
-    padding-top: 30px;
-    width: 30px; } }
+    padding-top: 1.875rem;
+    width: 1.875rem; } }
 
 @media (max-width: 1024px) {
   /* Secciones Edificios Home */
@@ -289,7 +289,7 @@ img.anchor-arrow {
     display: grid;
     grid-template-columns: 1fr; }
   p.section-text {
-    padding-top: 30px; }
+    padding-top: 1.875rem; }
   section div.col-1 {
     margin-right: 0; } }
 
@@ -300,10 +300,10 @@ section.section-presentation {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 0 75px; }
+  padding: 0 4.6875rem; }
 
 section.section-table h2, section.section-slider, section.section-location {
-  padding-top: 75px; }
+  padding-top: 4.6875rem; }
 
 iframe.location-map {
   width: 100%;
@@ -327,7 +327,7 @@ main.table-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 50px 75px; }
+  padding: 3.125rem 4.6875rem; }
 
 /*SCSS MAP FOR TABLES*/
 table {
@@ -356,9 +356,9 @@ tr {
     background-color: #B4BDCB; }
 
 td img.flag {
-  padding-right: 10px;
-  max-width: 20px;
-  max-height: 10px; }
+  padding-right: 0.625rem;
+  max-width: 1.25rem;
+  max-height: 0.625rem; }
 
 /********** Pagina Detalle Edificio Burj Khalifa Building **********/
 .section-background-burj {
@@ -404,15 +404,15 @@ td img.flag {
   /* Pages Detalles Edificios */
   section.section-presentation {
     height: 100%;
-    padding: 75px 25px; }
+    padding: 4.6875rem 1.5625rem; }
   section.intro {
     height: 75vh;
-    padding: 0 25px; }
+    padding: 0 1.5625rem; }
   main.table-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 50px 25px; }
+    padding: 3.125rem 1.5625rem; }
   .section-background-burj, .section-background-abraj, .section-background-merdeka, .section-background-fc, .section-background-shangai {
     height: 40vh; } }
 
@@ -505,20 +505,20 @@ section.multimedia h1 {
 
 @media (max-width: 1024px) {
   section div.col-2-architects {
-    padding-top: 75px;
+    padding-top: 4.6875rem;
     margin-left: 0px; } }
 
 @media (max-width: 1200px) {
   /* Page Architects */
   p.architects-text {
-    padding-bottom: 40px; } }
+    padding-bottom: 2.5rem; } }
 
 /************************************************** Pagina 4 - Multimedia **************************************************/
 .grid-multimedia {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   background-color: #f2f2f2;
-  padding-bottom: 75px; }
+  padding-bottom: 4.6875rem; }
 
 img.filter-img {
   filter: grayscale(80%); }
@@ -548,35 +548,35 @@ input.name {
   width: 100%;
   border: solid;
   border-width: 0 0 2px 0;
-  padding: 10px 5px; }
+  padding: 0.625rem 0.3125rem; }
 
 input.phone, input.email {
   width: 100%;
-  margin-top: 20px;
+  margin-top: 1.25rem;
   border: solid;
-  border-width: 0 0 2px 0;
-  padding: 10px 5px; }
+  border-width: 0 0 0.125rem 0;
+  padding: 0.625rem 0.3125rem; }
 
 select.form-select {
   width: 100%;
-  margin-top: 20px;
+  margin-top: 1.25rem;
   border: solid;
-  border-width: 0 0 2px 0;
-  padding: 10px 0; }
+  border-width: 0 0 0.125rem 0;
+  padding: 0.625rem 0; }
 
 textarea.message {
   width: 100%;
-  margin-top: 20px;
+  margin-top: 1.25rem;
   border: solid;
-  border-width: 0 0 2px 0;
-  padding: 10px 5px;
-  margin-bottom: 15px; }
+  border-width: 0 0 0.125rem 0;
+  padding: 0.625rem 0.3125rem;
+  margin-bottom: 0.9375rem; }
 
 fieldset {
   border: none; }
 
 h1.contact-title {
-  padding-top: 50px;
+  padding-top: 3.125rem;
   text-align: center; }
 
 @media (max-width: 1200px) {

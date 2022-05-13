@@ -6,11 +6,11 @@ section {
   &.section-presentation {
     height: 60vh;
     @include flex-center-column;
-    padding: 0 75px;
+    padding: 0 4.6875rem;
   }
 
   &.section-table h2, &.section-slider, &.section-location {
-    padding-top: 75px;
+    padding-top: 4.6875rem;
   }
 }
 
@@ -41,7 +41,7 @@ main.table-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 50px 75px;
+  padding: 3.125rem 4.6875rem;
 }
 
 /*SCSS MAP FOR TABLES*/
@@ -80,9 +80,9 @@ tr {
 }
 
 td img.flag {
-  padding-right: 10px;
-  max-width: 20px;
-  max-height: 10px;
+  padding-right: 0.625rem;
+  max-width: 1.25rem;
+  max-height: 0.625rem;
 }
 
 /********** Pagina Detalle Edificio Burj Khalifa Building **********/
@@ -135,12 +135,12 @@ td img.flag {
   section {
     &.section-presentation {
       height: 100%;
-      padding: 75px 25px;
+      padding: 4.6875rem 1.5625rem;
     }
 
     &.intro {
       height: 75vh;
-      padding: 0 25px;
+      padding: 0 1.5625rem;
     }
   }
 
@@ -148,7 +148,7 @@ td img.flag {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 50px 25px;
+    padding: 3.125rem 1.5625rem;
   }
 
   .section-background-burj, .section-background-abraj, .section-background-merdeka, .section-background-fc, .section-background-shangai {
