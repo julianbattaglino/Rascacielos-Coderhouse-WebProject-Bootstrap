@@ -107,8 +107,6 @@ img {
     font-size: 2.4rem; }
   h2 {
     font-size: 1.2rem; }
-  p.home-intro {
-    padding: 0 !important; }
   img.anchor-arrow {
     padding-top: 1.875rem;
     width: 2.5rem; } }
@@ -297,6 +295,10 @@ img.anchor-arrow {
     padding-top: 1.875rem; }
   section div.col-1 {
     margin-right: 0; } }
+
+@media (max-width: 1200px) {
+  p.home-intro {
+    padding: 0 !important; } }
 
 /************************************************** Pagina 2 - Detalles de Edificios - Estilos Globales  **************************************************/
 section.section-presentation {
