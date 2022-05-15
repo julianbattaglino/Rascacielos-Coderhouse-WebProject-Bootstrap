@@ -97,11 +97,15 @@ img {
 /*** Max-width: 767px Mobile Media Querie ***/
 /* Estilos Globales */
 @media (max-width: 767px) {
+  h1 {
+    font-size: 1.4rem; }
+  h2 {
+    font-size: 1.2rem; }
   img {
     width: 100%; } }
 
 /*** Max-width: 1200px Ipad Pro Media Querie ***/
-@media (max-width: 1200px) {
+@media (min-width: 767px) and (max-width: 1200px) {
   /* Estilos Globales */
   h1 {
     font-size: 2.4rem; }
